@@ -1,0 +1,1711 @@
+[2016-03-08 10:14:31,393 INFO]completed successful!
+[2016-03-08 10:14:58,244 INFO]completed successful!
+[2016-03-08 10:14:58,247 INFO]url http://localhost:7000/pubacc/api/applist runs 0.397s...
+[2016-03-08 10:18:48,835 WARN]Cookie rejected [cid="wKgWkFbeNosUjGHhBK5GAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 10:18:51 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 10:18:48,839 INFO]completed successful!
+[2016-03-08 10:18:48,842 INFO]url http://192.168.22.144/pubacc/api/applist runs 0.306s...
+[2016-03-08 10:27:57,798 WARN]Cookie rejected [cid="wKgWkFbeOLAUjGHhBK/jAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 10:28:00 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 10:27:57,803 INFO]completed successful!
+[2016-03-08 10:27:57,807 INFO]url http://192.168.22.144/pubacc/api/applist runs 15.843s...
+[2016-03-08 10:29:54,964 INFO]completed successful!
+[2016-03-08 10:29:54,967 INFO]url http://192.168.22.142/pubacc/mng/findAllSsbPub runs 0.52s...
+[2016-03-08 10:30:28,254 INFO]completed successful!
+[2016-03-08 10:30:28,256 INFO]url http://192.168.22.142/pubacc/mng/findAllSsbPub runs 6.79s...
+[2016-03-08 10:31:11,357 INFO]completed successful!
+[2016-03-08 10:31:11,357 INFO]
+{http://192.168.22.142/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:31:11,360 INFO]url http://192.168.22.142/pubacc/searchUsers runs 0.28s...
+[2016-03-08 10:32:01,224 INFO]completed successful!
+[2016-03-08 10:32:01,224 INFO]
+{http://192.168.22.142/pubacc/searchUsers?name=%E8%AE%B8%E7%82%B3%E6%9D%BE&mid=10109}
+return error {404}
+[2016-03-08 10:32:01,228 INFO]url http://192.168.22.142/pubacc/searchUsers?name=%E8%AE%B8%E7%82%B3%E6%9D%BE&mid=10109 runs 0.286s...
+[2016-03-08 10:32:54,129 INFO]completed successful!
+[2016-03-08 10:32:54,129 INFO]
+{http://192.168.22.142/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:33:09,602 INFO]url http://192.168.22.142/pubacc/searchUsers runs 40.128s...
+[2016-03-08 10:33:25,291 INFO]completed successful!
+[2016-03-08 10:33:47,656 INFO]
+{http://192.168.22.142/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:33:50,309 INFO]url http://192.168.22.142/pubacc/searchUsers runs 35.711s...
+[2016-03-08 10:34:37,181 INFO]completed successful!
+[2016-03-08 10:34:37,181 INFO]
+{http://192.168.22.142/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:34:37,184 INFO]url http://192.168.22.142/pubacc/searchUsers runs 0.287s...
+[2016-03-08 10:36:04,305 INFO]completed successful!
+[2016-03-08 10:36:04,305 INFO]
+{http://localhost:7000/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:36:04,309 INFO]url http://localhost:7000/pubacc/searchUsers runs 0.591s...
+[2016-03-08 10:37:42,135 INFO]completed successful!
+[2016-03-08 10:37:42,137 INFO]url http://localhost:7000/pubacc/api/searchUsers runs 2.035s...
+[2016-03-08 10:38:03,192 INFO]completed successful!
+[2016-03-08 10:40:19,533 INFO]completed successful!
+[2016-03-08 10:40:28,711 INFO]completed successful!
+[2016-03-08 10:40:28,713 INFO]url http://localhost:7000/pubacc/api/searchUsers runs 0.504s...
+[2016-03-08 10:40:40,871 INFO]completed successful!
+[2016-03-08 10:40:40,873 INFO]
+{http://localhost:7000/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:40:40,877 INFO]url http://localhost:7000/pubacc/searchUsers runs 0.395s...
+[2016-03-08 10:42:30,365 INFO]excute failed:
+java.net.ConnectException: Connection refused: no further information
+	at sun.nio.ch.SocketChannelImpl.checkConnect(Native Method)
+	at sun.nio.ch.SocketChannelImpl.finishConnect(SocketChannelImpl.java:692)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvent(DefaultConnectingIOReactor.java:173)
+	at org.apache.http.impl.nio.reactor.DefaultConnectingIOReactor.processEvents(DefaultConnectingIOReactor.java:147)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor.execute(AbstractMultiworkerIOReactor.java:348)
+	at org.apache.http.impl.nio.conn.PoolingNHttpClientConnectionManager.execute(PoolingNHttpClientConnectionManager.java:189)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase.doExecute(CloseableHttpAsyncClientBase.java:67)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase.access$000(CloseableHttpAsyncClientBase.java:38)
+	at org.apache.http.impl.nio.client.CloseableHttpAsyncClientBase$1.run(CloseableHttpAsyncClientBase.java:57)
+	at java.lang.Thread.run(Thread.java:722)
+[2016-03-08 10:43:04,826 WARN]Cookie rejected [cid="wKgWkFbePDsUjGHhBLIaAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 10:43:07 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 10:43:04,831 INFO]completed successful!
+[2016-03-08 10:43:04,834 INFO]url http://192.168.22.144/pubacc/api/searchUsers runs 0.467s...
+[2016-03-08 10:43:12,035 WARN]Cookie rejected [cid="wKgWkFbePEIUjGHhBLIcAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 10:43:14 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 10:43:12,039 INFO]completed successful!
+[2016-03-08 10:43:12,039 INFO]
+{http://192.168.22.144/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:43:12,041 INFO]url http://192.168.22.144/pubacc/searchUsers runs 0.31s...
+[2016-03-08 10:43:28,955 INFO]completed successful!
+[2016-03-08 10:43:28,956 INFO]
+{http://do.yunzhijia.com/pubacc/searchUsers}
+return error {404}
+[2016-03-08 10:43:28,959 INFO]url http://do.yunzhijia.com/pubacc/searchUsers runs 0.359s...
+[2016-03-08 10:43:36,974 INFO]completed successful!
+[2016-03-08 10:43:36,977 INFO]url http://do.yunzhijia.com/pubacc/api/searchUsers runs 0.427s...
+[2016-03-08 11:15:01,778 INFO]completed successful!
+[2016-03-08 11:15:01,780 INFO]url http://do.yunzhijia.com/pubacc/api/searchUsers runs 0.404s...
+[2016-03-08 11:15:08,063 INFO]completed successful!
+[2016-03-08 11:15:08,064 INFO]url http://do.yunzhijia.com/pubacc/searchUsers runs 0.397s...
+[2016-03-08 11:15:20,674 WARN]Cookie rejected [cid="wKgWkFbeQ8sUJmHgBKJQAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 11:15:23 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 11:15:20,677 INFO]completed successful!
+[2016-03-08 11:15:20,679 INFO]url http://192.168.22.144/pubacc/searchUsers runs 0.479s...
+[2016-03-08 16:32:01,329 WARN]Cookie rejected [cid="wKgWkFbejgNz6lmbAyI4Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:32:03 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:32:01,333 INFO]completed successful!
+[2016-03-08 16:32:01,335 INFO]url http://192.168.22.144/pubacc/searchUsers runs 0.677s...
+[2016-03-08 16:37:16,582 WARN]Cookie rejected [cid="wKgWkFbejz9z8VmcAxs8Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:37:19 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:37:16,586 INFO]completed successful!
+[2016-03-08 16:37:16,586 INFO]
+{http://192.168.22.144/pubacc/searchUsers}
+return error {404}
+[2016-03-08 16:37:16,590 INFO]url http://192.168.22.144/pubacc/searchUsers runs 0.368s...
+[2016-03-08 16:38:04,063 WARN]Cookie rejected [cid="wKgWkFbej250DVmdAxldAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:38:06 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:38:04,067 INFO]completed successful!
+[2016-03-08 16:38:04,071 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.316s...
+[2016-03-08 16:38:23,513 WARN]Cookie rejected [cid="wKgWkFbej4Jz8VmcAxtxAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:38:26 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:38:23,517 INFO]completed successful!
+[2016-03-08 16:38:23,519 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.316s...
+[2016-03-08 16:38:23,548 WARN]Cookie rejected [cid="wKgWkFbej4Jz8VmcAxtyAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:38:26 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:38:23,548 INFO]completed successful!
+[2016-03-08 16:38:23,548 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.029s...
+[2016-03-08 16:57:52,197 WARN]Cookie rejected [cid="wKgWkFbelBJz6lmbAyPCAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:57:54 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:57:52,200 INFO]completed successful!
+[2016-03-08 16:57:52,202 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.342s...
+[2016-03-08 16:57:52,235 WARN]Cookie rejected [cid="wKgWkFbelBJz6lmbAyPDAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:57:54 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:57:52,236 INFO]completed successful!
+[2016-03-08 16:57:52,236 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.034s...
+[2016-03-08 16:57:52,805 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.0s...
+[2016-03-08 16:58:25,153 WARN]Cookie rejected [cid="wKgWkFbelDN0DVmdAxxhAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:58:27 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:58:25,157 INFO]completed successful!
+[2016-03-08 16:58:25,159 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.311s...
+[2016-03-08 16:58:25,188 WARN]Cookie rejected [cid="wKgWkFbelDN0DVmdAxxiAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:58:27 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:58:25,188 INFO]completed successful!
+[2016-03-08 16:58:25,188 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.029s...
+[2016-03-08 16:58:49,271 WARN]Cookie rejected [cid="wKgWkFbelEtz8VmcAx3wAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:58:51 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:58:49,275 INFO]completed successful!
+[2016-03-08 16:58:49,277 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 1.902s...
+[2016-03-08 16:58:50,614 WARN]Cookie rejected [cid="wKgWkFbelE1z8VmcAx3yAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:58:53 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:58:50,614 INFO]completed successful!
+[2016-03-08 16:58:50,615 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 1.337s...
+[2016-03-08 16:59:31,922 WARN]Cookie rejected [cid="wKgWkFbelHZz6lmbAyPZAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:59:34 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:59:31,927 INFO]completed successful!
+[2016-03-08 16:59:31,929 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 2.859s...
+[2016-03-08 16:59:31,959 WARN]Cookie rejected [cid="wKgWkFbelHZz6lmbAyPaAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 16:59:34 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 16:59:31,960 INFO]completed successful!
+[2016-03-08 16:59:31,960 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.031s...
+[2016-03-08 17:00:44,980 WARN]Cookie rejected [cid="wKgWkFbelL9z8VmcAx4hAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:00:47 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:00:44,984 INFO]completed successful!
+[2016-03-08 17:00:44,986 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.345s...
+[2016-03-08 17:00:45,021 WARN]Cookie rejected [cid="wKgWkFbelL9z8VmcAx4iAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:00:47 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:00:45,022 INFO]completed successful!
+[2016-03-08 17:00:45,022 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.036s...
+[2016-03-08 17:01:46,899 WARN]Cookie rejected [cid="wKgWkFbelP10DVmdAxzwAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:01:49 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:01:46,903 INFO]completed successful!
+[2016-03-08 17:01:46,904 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.315s...
+[2016-03-08 17:01:46,937 WARN]Cookie rejected [cid="wKgWkFbelP10DVmdAxzxAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:01:49 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:01:46,937 INFO]completed successful!
+[2016-03-08 17:01:46,937 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.033s...
+[2016-03-08 17:01:47,097 INFO]completed successful!
+[2016-03-08 17:01:47,097 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.119s...
+[2016-03-08 17:24:28,003 WARN]Cookie rejected [cid="wKgWkFbemk4LtSgdAwPAAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:24:30 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:24:28,007 INFO]completed successful!
+[2016-03-08 17:24:28,008 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.324s...
+[2016-03-08 17:24:28,038 WARN]Cookie rejected [cid="wKgWkFbemk4LtSgdAwPBAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:24:30 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:24:28,038 INFO]completed successful!
+[2016-03-08 17:24:28,039 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.03s...
+[2016-03-08 17:24:28,191 INFO]completed successful!
+[2016-03-08 17:24:28,191 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.111s...
+[2016-03-08 17:28:10,142 WARN]Cookie rejected [cid="wKgWkFbemywk5jNTAwMVAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:28:12 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:28:10,145 INFO]completed successful!
+[2016-03-08 17:28:10,148 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.318s...
+[2016-03-08 17:28:10,148 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:28:10,174 WARN]Cookie rejected [cid="wKgWkFbemywk5jNTAwMWAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:28:12 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:28:10,175 INFO]completed successful!
+[2016-03-08 17:28:10,175 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.027s...
+[2016-03-08 17:28:10,175 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:28:10,321 INFO]completed successful!
+[2016-03-08 17:28:10,321 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.101s...
+[2016-03-08 17:28:10,321 INFO]{"pubId":"XT-10000","sourceMsgId":"979794f1-c6d5-4381-b467-1dbb983da0ac"}
+[2016-03-08 17:56:09,012 INFO]Request: 
+%s %s
+[2016-03-08 17:56:09,325 WARN]Cookie rejected [cid="wKgWkFbeobsk5jNTAwYXAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:56:11 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:56:09,329 INFO]completed successful!
+[2016-03-08 17:56:09,329 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.318s...
+[2016-03-08 17:56:09,330 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:56:09,330 INFO]Request: 
+%s %s
+[2016-03-08 17:56:09,361 WARN]Cookie rejected [cid="wKgWkFbeobwk5jNTAwYYAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:56:12 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:56:09,361 INFO]completed successful!
+[2016-03-08 17:56:09,361 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.031s...
+[2016-03-08 17:56:09,361 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:56:09,405 INFO]Request: 
+%s %s
+[2016-03-08 17:56:09,510 INFO]completed successful!
+[2016-03-08 17:56:09,511 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.106s...
+[2016-03-08 17:56:09,511 INFO]{"pubId":"XT-10000","sourceMsgId":"ea2d96f6-87a7-4001-bcd9-2e7d78da1bfe"}
+[2016-03-08 17:58:32,570 INFO]Request: 
+GET http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-08 17:58:32,879 WARN]Cookie rejected [cid="wKgWkFbeoksk5jNTAwZFAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:58:35 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:58:32,883 INFO]completed successful!
+[2016-03-08 17:58:32,884 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.315s...
+[2016-03-08 17:58:32,884 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:58:32,884 INFO]Request: 
+POST http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-08 17:58:32,916 WARN]Cookie rejected [cid="wKgWkFbeoksk5jNTAwZGAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:58:35 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:58:32,916 INFO]completed successful!
+[2016-03-08 17:58:32,916 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.032s...
+[2016-03-08 17:58:32,916 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:58:32,958 INFO]Request: 
+POST http://192.168.22.142/pubacc/api/pubsend
+[2016-03-08 17:58:33,059 INFO]completed successful!
+[2016-03-08 17:58:33,059 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.101s...
+[2016-03-08 17:58:33,060 INFO]{"pubId":"XT-10000","sourceMsgId":"6b51bf6e-974b-4774-93ff-5d1d5c12c3a4"}
+[2016-03-08 17:59:10,612 INFO]Request: 
+[2016-03-08 17:59:10,614 INFO]GET http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-08 17:59:10,919 WARN]Cookie rejected [cid="wKgWkFbeonEkgDNSAwejAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:59:13 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:59:10,922 INFO]completed successful!
+[2016-03-08 17:59:10,924 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.311s...
+[2016-03-08 17:59:10,924 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:59:10,924 INFO]Request: 
+[2016-03-08 17:59:10,924 INFO]POST http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-08 17:59:10,950 WARN]Cookie rejected [cid="wKgWkFbeonEkgDNSAwekAg==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 17:59:13 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 17:59:10,951 INFO]completed successful!
+[2016-03-08 17:59:10,951 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.027s...
+[2016-03-08 17:59:10,951 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 17:59:10,993 INFO]Request: 
+[2016-03-08 17:59:10,993 INFO]POST http://192.168.22.142/pubacc/api/pubsend
+[2016-03-08 17:59:11,682 INFO]completed successful!
+[2016-03-08 17:59:11,682 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.689s...
+[2016-03-08 17:59:11,682 INFO]{"pubId":"XT-10000","sourceMsgId":"13d6e8e9-a44d-43ea-ba17-16cc4f6266a6"}
+[2016-03-08 18:03:21,635 INFO]Request: 
+[2016-03-08 18:03:21,637 INFO]GET http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-08 18:03:21,938 WARN]Cookie rejected [cid="wKgWkFbeo2wkwTNRAwt9Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 18:03:24 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 18:03:21,942 INFO]completed successful!
+[2016-03-08 18:03:21,943 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.308s...
+[2016-03-08 18:03:21,944 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 18:03:21,944 INFO]Request: 
+[2016-03-08 18:03:21,944 INFO]POST http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-08 18:03:21,977 WARN]Cookie rejected [cid="wKgWkFbeo2wkwTNRAwt+Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Fri Mar 06 18:03:24 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-08 18:03:21,977 INFO]completed successful!
+[2016-03-08 18:03:21,977 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.033s...
+[2016-03-08 18:03:21,978 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-08 18:03:22,026 INFO]Request: 
+[2016-03-08 18:03:22,026 INFO]POST http://192.168.22.142/pubacc/api/pubsend
+[2016-03-08 18:03:22,142 INFO]completed successful!
+[2016-03-08 18:03:22,142 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.116s...
+[2016-03-08 18:03:22,142 INFO]{"pubId":"XT-10000","sourceMsgId":"16191b6b-3e87-4204-8d5c-570aec2cb27b"}
+[2016-03-09 10:01:31,885 INFO]Request: 
+[2016-03-09 10:01:31,886 INFO]GET http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 10:01:32,200 WARN]Cookie rejected [cid="wKgWkFbfhAALV1sYAwO0Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 10:01:36 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 10:01:32,203 INFO]completed successful!
+[2016-03-09 10:01:32,205 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.32s...
+[2016-03-09 10:01:32,205 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-09 10:01:32,205 INFO]Request: 
+[2016-03-09 10:01:32,205 INFO]POST http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 10:01:32,238 WARN]Cookie rejected [cid="wKgWkFbfhAALV1sYAwO1Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 10:01:36 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 10:01:32,238 INFO]completed successful!
+[2016-03-09 10:01:32,239 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.033s...
+[2016-03-09 10:01:32,239 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":""}}
+[2016-03-09 10:01:32,283 INFO]Request: 
+[2016-03-09 10:01:32,283 INFO]POST http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 10:01:32,394 INFO]completed successful!
+[2016-03-09 10:01:32,394 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.111s...
+[2016-03-09 10:01:32,394 INFO]{"pubId":"XT-10000","sourceMsgId":"89dfd384-ae45-4c02-b4a8-ee362da8cc40"}
+[2016-03-09 10:49:01,262 INFO]Request: 
+[2016-03-09 10:49:01,264 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 10:49:01,265 INFO]Get Params: appId=10103
+[2016-03-09 10:49:01,559 WARN]Cookie rejected [cid="wKgWkFbfjyELSlsXAwvqAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 10:49:05 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 10:49:01,562 INFO]completed successful!
+[2016-03-09 10:49:01,563 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.301s...
+[2016-03-09 10:49:01,563 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 10:49:01,563 INFO]Request: 
+[2016-03-09 10:49:01,564 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 10:49:01,564 INFO]Post Params: appId=10103
+[2016-03-09 10:49:01,588 WARN]Cookie rejected [cid="wKgWkFbfjyILSlsXAwvrAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 10:49:06 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 10:49:01,589 INFO]completed successful!
+[2016-03-09 10:49:01,589 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.026s...
+[2016-03-09 10:49:01,589 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 10:49:01,630 INFO]Request: 
+[2016-03-09 10:49:01,631 INFO]Post http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 10:49:01,709 INFO]completed successful!
+[2016-03-09 10:49:01,709 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.079s...
+[2016-03-09 10:49:01,709 INFO]{"pubId":"XT-10000","sourceMsgId":"a7eba724-e62f-4feb-9859-f2f258450b8a"}
+[2016-03-09 10:49:47,824 INFO]Request: 
+[2016-03-09 10:49:47,826 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 10:49:47,828 INFO]Get Params: appId=10103
+[2016-03-09 10:49:48,124 WARN]Cookie rejected [cid="wKgWkFbfj1ALV1sYAwj6Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 10:49:52 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 10:49:48,127 INFO]completed successful!
+[2016-03-09 10:49:48,128 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.304s...
+[2016-03-09 10:49:48,128 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 10:49:48,128 INFO]Request: 
+[2016-03-09 10:49:48,129 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 10:49:48,129 INFO]Post Params: appId=10103
+[2016-03-09 10:49:48,159 WARN]Cookie rejected [cid="wKgWkFbfj1ALV1sYAwj7Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 10:49:52 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 10:49:48,160 INFO]completed successful!
+[2016-03-09 10:49:48,160 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.032s...
+[2016-03-09 10:49:48,160 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 10:49:48,203 INFO]Request: 
+[2016-03-09 10:49:48,203 INFO]Post http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 10:49:48,231 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-09 10:49:48,288 INFO]completed successful!
+[2016-03-09 10:49:48,289 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.085s...
+[2016-03-09 10:49:48,289 INFO]{"pubId":"XT-10000","sourceMsgId":"b87e807b-1a6e-45c8-9b7d-c27dae93fee5"}
+[2016-03-09 11:05:20,011 INFO]Request: 
+[2016-03-09 11:05:20,013 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 11:05:20,014 INFO]Get Params: appId=10103
+[2016-03-09 11:05:20,316 WARN]Cookie rejected [cid="wKgWkFbfkvQLQlsZAw2zAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 11:05:24 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 11:05:20,319 INFO]completed successful!
+[2016-03-09 11:05:20,319 INFO]Response:
+[2016-03-09 11:05:20,319 INFO]HTTP/1.1 200 OK
+[2016-03-09 11:05:20,319 INFO]Server: nginx/1.4.4
+[2016-03-09 11:05:20,319 INFO]Date: Wed, 09 Mar 2016 03:05:24 GMT
+[2016-03-09 11:05:20,319 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 11:05:20,319 INFO]Content-Length: 331
+[2016-03-09 11:05:20,320 INFO]Connection: keep-alive
+[2016-03-09 11:05:20,320 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,320 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,320 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,320 INFO]Cache-Control: no-cache
+[2016-03-09 11:05:20,320 INFO]Set-Cookie: cid=wKgWkFbfkvQLQlsZAw2zAg==; expires=Sat, 07-Mar-26 03:05:24 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 11:05:20,322 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.312s...
+[2016-03-09 11:05:20,322 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 11:05:20,322 INFO]Request: 
+[2016-03-09 11:05:20,322 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 11:05:20,322 INFO]Post Params: appId=10103
+[2016-03-09 11:05:20,354 WARN]Cookie rejected [cid="wKgWkFbfkvQLQlsZAw20Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 11:05:24 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 11:05:20,354 INFO]completed successful!
+[2016-03-09 11:05:20,354 INFO]Response:
+[2016-03-09 11:05:20,354 INFO]HTTP/1.1 200 OK
+[2016-03-09 11:05:20,354 INFO]Server: nginx/1.4.4
+[2016-03-09 11:05:20,354 INFO]Date: Wed, 09 Mar 2016 03:05:24 GMT
+[2016-03-09 11:05:20,354 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 11:05:20,354 INFO]Content-Length: 331
+[2016-03-09 11:05:20,355 INFO]Connection: keep-alive
+[2016-03-09 11:05:20,355 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,355 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,355 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,355 INFO]Cache-Control: no-cache
+[2016-03-09 11:05:20,355 INFO]Set-Cookie: cid=wKgWkFbfkvQLQlsZAw20Ag==; expires=Sat, 07-Mar-26 03:05:24 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 11:05:20,355 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.033s...
+[2016-03-09 11:05:20,355 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 11:05:20,396 INFO]Request: 
+[2016-03-09 11:05:20,396 INFO]Post http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 11:05:20,424 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-09 11:05:20,495 INFO]completed successful!
+[2016-03-09 11:05:20,495 INFO]Response:
+[2016-03-09 11:05:20,495 INFO]HTTP/1.1 200 OK
+[2016-03-09 11:05:20,495 INFO]Server: nginx/1.6.0
+[2016-03-09 11:05:20,495 INFO]Date: Wed, 09 Mar 2016 03:05:24 GMT
+[2016-03-09 11:05:20,495 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 11:05:20,495 INFO]Content-Length: 73
+[2016-03-09 11:05:20,495 INFO]Connection: keep-alive
+[2016-03-09 11:05:20,496 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,496 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 03:05:24 GMT;Path=/
+[2016-03-09 11:05:20,496 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-09 11:05:20,496 INFO]Cache-Control: no-cache
+[2016-03-09 11:05:20,496 INFO]Set-Cookie: cid=wKgWjlbfkvQUYlrJCJtsAg==; expires=Sat, 07-Mar-26 03:05:24 GMT; path=/
+[2016-03-09 11:05:20,496 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.1s...
+[2016-03-09 11:05:20,496 INFO]{"pubId":"XT-10000","sourceMsgId":"03bdf148-3b29-4de3-acf1-08204b1163c0"}
+[2016-03-09 11:06:03,299 INFO]Request: 
+[2016-03-09 11:06:03,301 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 11:06:03,304 INFO]Get Params: appId=10103
+[2016-03-09 11:06:03,609 WARN]Cookie rejected [cid="wKgWkFbfkyALV1sYAw5YAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 11:06:08 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 11:06:03,612 INFO]completed successful!
+[2016-03-09 11:06:03,612 INFO]Response:
+[2016-03-09 11:06:03,612 INFO]HTTP/1.1 200 OK
+[2016-03-09 11:06:03,613 INFO]Server: nginx/1.4.4
+[2016-03-09 11:06:03,613 INFO]Date: Wed, 09 Mar 2016 03:06:08 GMT
+[2016-03-09 11:06:03,613 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 11:06:03,613 INFO]Content-Length: 331
+[2016-03-09 11:06:03,613 INFO]Connection: keep-alive
+[2016-03-09 11:06:03,613 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 03:06:07 GMT;Path=/
+[2016-03-09 11:06:03,613 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 03:06:07 GMT;Path=/
+[2016-03-09 11:06:03,613 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 03:06:07 GMT;Path=/
+[2016-03-09 11:06:03,613 INFO]Cache-Control: no-cache
+[2016-03-09 11:06:03,613 INFO]Set-Cookie: cid=wKgWkFbfkyALV1sYAw5YAg==; expires=Sat, 07-Mar-26 03:06:08 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 11:06:03,614 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.315s...
+[2016-03-09 11:06:03,614 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 11:06:03,614 INFO]Request: 
+[2016-03-09 11:06:03,614 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 11:06:03,614 INFO]Post Params: appId=10103
+[2016-03-09 11:06:03,645 WARN]Cookie rejected [cid="wKgWkFbfkyALV1sYAw5ZAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 11:06:08 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 11:06:03,646 INFO]completed successful!
+[2016-03-09 11:06:03,646 INFO]Response:
+[2016-03-09 11:06:03,646 INFO]HTTP/1.1 200 OK
+[2016-03-09 11:06:03,646 INFO]Server: nginx/1.4.4
+[2016-03-09 11:06:03,646 INFO]Date: Wed, 09 Mar 2016 03:06:08 GMT
+[2016-03-09 11:06:03,646 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 11:06:03,646 INFO]Content-Length: 331
+[2016-03-09 11:06:03,646 INFO]Connection: keep-alive
+[2016-03-09 11:06:03,646 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 03:06:07 GMT;Path=/
+[2016-03-09 11:06:03,646 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 03:06:07 GMT;Path=/
+[2016-03-09 11:06:03,646 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 03:06:07 GMT;Path=/
+[2016-03-09 11:06:03,646 INFO]Cache-Control: no-cache
+[2016-03-09 11:06:03,646 INFO]Set-Cookie: cid=wKgWkFbfkyALV1sYAw5ZAg==; expires=Sat, 07-Mar-26 03:06:08 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 11:06:03,646 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.032s...
+[2016-03-09 11:06:03,646 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 11:06:03,687 INFO]Request: 
+[2016-03-09 11:06:03,687 INFO]Post http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 11:06:03,715 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-09 11:06:03,790 INFO]completed successful!
+[2016-03-09 11:06:03,790 INFO]Response:
+[2016-03-09 11:06:03,791 INFO]HTTP/1.1 200 OK
+[2016-03-09 11:06:03,791 INFO]Server: nginx/1.6.0
+[2016-03-09 11:06:03,791 INFO]Date: Wed, 09 Mar 2016 03:06:08 GMT
+[2016-03-09 11:06:03,791 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 11:06:03,791 INFO]Content-Length: 73
+[2016-03-09 11:06:03,791 INFO]Connection: keep-alive
+[2016-03-09 11:06:03,791 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 03:06:08 GMT;Path=/
+[2016-03-09 11:06:03,791 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 03:06:08 GMT;Path=/
+[2016-03-09 11:06:03,791 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-09 11:06:03,791 INFO]Cache-Control: no-cache
+[2016-03-09 11:06:03,791 INFO]Set-Cookie: cid=wKgWjlbfkyAURFrKCGimAg==; expires=Sat, 07-Mar-26 03:06:08 GMT; path=/
+[2016-03-09 11:06:03,792 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.105s...
+[2016-03-09 11:06:03,792 INFO]{"pubId":"XT-10000","sourceMsgId":"e3c54c0f-de14-4045-a5a4-44ab6a6d10a5"}
+[2016-03-09 11:06:21,189 INFO]Request: 
+[2016-03-09 11:06:21,190 INFO]Post http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 11:06:21,219 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-09 11:06:21,587 INFO]completed successful!
+[2016-03-09 11:06:21,587 INFO]Response:
+[2016-03-09 11:06:21,587 INFO]HTTP/1.1 200 OK
+[2016-03-09 11:06:21,587 INFO]Server: nginx/1.6.0
+[2016-03-09 11:06:21,587 INFO]Date: Wed, 09 Mar 2016 03:06:25 GMT
+[2016-03-09 11:06:21,587 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 11:06:21,587 INFO]Content-Length: 73
+[2016-03-09 11:06:21,587 INFO]Connection: keep-alive
+[2016-03-09 11:06:21,588 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 03:06:25 GMT;Path=/
+[2016-03-09 11:06:21,588 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 03:06:25 GMT;Path=/
+[2016-03-09 11:06:21,588 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-09 11:06:21,588 INFO]Cache-Control: no-cache
+[2016-03-09 11:06:21,588 INFO]Set-Cookie: cid=wKgWjlbfkzEURFrKCGinAg==; expires=Sat, 07-Mar-26 03:06:25 GMT; path=/
+[2016-03-09 11:06:21,589 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.401s...
+[2016-03-09 11:06:21,589 INFO]{"pubId":"XT-10000","sourceMsgId":"87d230f5-ae43-458c-8d5c-3d9915cc1dcf"}
+[2016-03-09 15:02:52,884 INFO]Request: 
+[2016-03-09 15:02:52,886 INFO]Post http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 15:02:52,914 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-09 15:02:53,331 INFO]completed successful!
+[2016-03-09 15:02:53,331 INFO]Response:
+[2016-03-09 15:02:53,332 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:02:53,332 INFO]Server: nginx/1.6.0
+[2016-03-09 15:02:53,332 INFO]Date: Wed, 09 Mar 2016 07:02:57 GMT
+[2016-03-09 15:02:53,332 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:02:53,332 INFO]Content-Length: 73
+[2016-03-09 15:02:53,332 INFO]Connection: keep-alive
+[2016-03-09 15:02:53,332 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 07:02:57 GMT;Path=/
+[2016-03-09 15:02:53,332 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 07:02:57 GMT;Path=/
+[2016-03-09 15:02:53,332 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-09 15:02:53,332 INFO]Cache-Control: no-cache
+[2016-03-09 15:02:53,332 INFO]Set-Cookie: cid=wKgWjlbfyqEUYlrJCKMlAg==; expires=Sat, 07-Mar-26 07:02:57 GMT; path=/
+[2016-03-09 15:02:53,333 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.45s...
+[2016-03-09 15:02:53,334 INFO]{"pubId":"XT-10000","sourceMsgId":"3e631c03-d1f9-45a6-bbd4-e1a4d03871b3"}
+[2016-03-09 15:03:13,313 INFO]Request: 
+[2016-03-09 15:03:13,314 INFO]Post http://192.168.22.142/pubacc/api/pubsend
+[2016-03-09 15:03:13,343 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-09 15:03:13,707 INFO]completed successful!
+[2016-03-09 15:03:13,707 INFO]Response:
+[2016-03-09 15:03:13,707 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:03:13,707 INFO]Server: nginx/1.6.0
+[2016-03-09 15:03:13,707 INFO]Date: Wed, 09 Mar 2016 07:03:17 GMT
+[2016-03-09 15:03:13,708 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:03:13,708 INFO]Content-Length: 73
+[2016-03-09 15:03:13,708 INFO]Connection: keep-alive
+[2016-03-09 15:03:13,708 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 07:03:17 GMT;Path=/
+[2016-03-09 15:03:13,708 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 07:03:17 GMT;Path=/
+[2016-03-09 15:03:13,708 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-09 15:03:13,708 INFO]Cache-Control: no-cache
+[2016-03-09 15:03:13,708 INFO]Set-Cookie: cid=wKgWjlbfyrUUYlrJCKMpAg==; expires=Sat, 07-Mar-26 07:03:17 GMT; path=/
+[2016-03-09 15:03:13,710 INFO]url http://192.168.22.142/pubacc/api/pubsend runs 0.398s...
+[2016-03-09 15:03:13,710 INFO]{"pubId":"XT-10000","sourceMsgId":"80d356ec-7b1e-455c-8545-5bb940a3ddba"}
+[2016-03-09 15:03:30,066 INFO]Request: 
+[2016-03-09 15:03:30,068 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo
+[2016-03-09 15:03:30,068 INFO]Get Params: appId=10103
+[2016-03-09 15:03:30,363 WARN]Cookie rejected [cid="wKgWkFbfysYLQlsZAy6DAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 15:03:34 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 15:03:30,366 INFO]completed successful!
+[2016-03-09 15:03:30,366 INFO]Response:
+[2016-03-09 15:03:30,366 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:03:30,366 INFO]Server: nginx/1.4.4
+[2016-03-09 15:03:30,366 INFO]Date: Wed, 09 Mar 2016 07:03:34 GMT
+[2016-03-09 15:03:30,366 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:03:30,366 INFO]Content-Length: 331
+[2016-03-09 15:03:30,366 INFO]Connection: keep-alive
+[2016-03-09 15:03:30,366 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 07:03:34 GMT;Path=/
+[2016-03-09 15:03:30,366 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 07:03:34 GMT;Path=/
+[2016-03-09 15:03:30,367 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 07:03:34 GMT;Path=/
+[2016-03-09 15:03:30,367 INFO]Cache-Control: no-cache
+[2016-03-09 15:03:30,367 INFO]Set-Cookie: cid=wKgWkFbfysYLQlsZAy6DAg==; expires=Sat, 07-Mar-26 07:03:34 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 15:03:30,367 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo runs 0.301s...
+[2016-03-09 15:03:30,367 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 15:03:57,732 INFO]Request: 
+[2016-03-09 15:03:57,734 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:04:54,125 INFO]Request: 
+[2016-03-09 15:04:54,127 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:04:54,128 INFO]Get Params: appId=10103
+[2016-03-09 15:04:54,421 WARN]Cookie rejected [cid="wKgWkFbfyxoLV1sYAzCwAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 15:04:58 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 15:04:54,424 INFO]completed successful!
+[2016-03-09 15:04:54,424 INFO]Response:
+[2016-03-09 15:04:54,424 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:04:54,425 INFO]Server: nginx/1.4.4
+[2016-03-09 15:04:54,425 INFO]Date: Wed, 09 Mar 2016 07:04:58 GMT
+[2016-03-09 15:04:54,425 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:04:54,425 INFO]Content-Length: 47
+[2016-03-09 15:04:54,425 INFO]Connection: keep-alive
+[2016-03-09 15:04:54,425 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 07:04:58 GMT;Path=/
+[2016-03-09 15:04:54,425 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 07:04:58 GMT;Path=/
+[2016-03-09 15:04:54,425 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 07:04:58 GMT;Path=/
+[2016-03-09 15:04:54,425 INFO]Cache-Control: no-cache
+[2016-03-09 15:04:54,425 INFO]Set-Cookie: cid=wKgWkFbfyxoLV1sYAzCwAg==; expires=Sat, 07-Mar-26 07:04:58 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 15:04:54,426 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.301s...
+[2016-03-09 15:04:54,426 INFO]{"success":false,"error":"轻应用不存在!"}
+[2016-03-09 15:05:28,382 INFO]Request: 
+[2016-03-09 15:05:28,384 INFO]Get http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:05:28,385 INFO]Get Params: appId=10103
+[2016-03-09 15:05:28,686 WARN]Cookie rejected [cid="wKgWkFbfyz0LQlsZAy7CAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 15:05:33 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 15:05:28,689 INFO]completed successful!
+[2016-03-09 15:05:28,689 INFO]Response:
+[2016-03-09 15:05:28,689 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:05:28,689 INFO]Server: nginx/1.4.4
+[2016-03-09 15:05:28,689 INFO]Date: Wed, 09 Mar 2016 07:05:33 GMT
+[2016-03-09 15:05:28,689 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:05:28,690 INFO]Content-Length: 47
+[2016-03-09 15:05:28,690 INFO]Connection: keep-alive
+[2016-03-09 15:05:28,690 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 07:05:32 GMT;Path=/
+[2016-03-09 15:05:28,690 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 07:05:32 GMT;Path=/
+[2016-03-09 15:05:28,690 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 07:05:32 GMT;Path=/
+[2016-03-09 15:05:28,690 INFO]Cache-Control: no-cache
+[2016-03-09 15:05:28,690 INFO]Set-Cookie: cid=wKgWkFbfyz0LQlsZAy7CAg==; expires=Sat, 07-Mar-26 07:05:33 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 15:05:28,691 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.309s...
+[2016-03-09 15:05:28,691 INFO]{"success":false,"error":"轻应用不存在!"}
+[2016-03-09 15:06:39,298 INFO]Request: 
+[2016-03-09 15:06:39,300 INFO]Get http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:06:39,302 INFO]Get Params: appId=10103
+[2016-03-09 15:06:49,361 INFO]completed successful!
+[2016-03-09 15:07:08,612 INFO]Request: 
+[2016-03-09 15:07:08,616 INFO]Get http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:07:58,184 INFO]Get Params: appId=10103
+[2016-03-09 15:08:32,052 INFO]completed successful!
+[2016-03-09 15:08:32,053 INFO]Response:
+[2016-03-09 15:08:32,053 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:08:32,053 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:08:32,053 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:08:32,054 INFO]Date: Wed, 09 Mar 2016 07:08:32 GMT
+[2016-03-09 15:08:32,054 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:08:32 GMT; Path=/
+[2016-03-09 15:08:32,054 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:08:32 GMT; Path=/
+[2016-03-09 15:08:32,054 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:08:32 GMT; Path=/
+[2016-03-09 15:08:32,054 INFO]Cache-Control: no-cache
+[2016-03-09 15:08:32,054 INFO]Content-Length: 47
+[2016-03-09 15:08:32,055 INFO]url http://localhost:7000/pubacc/api/innerAppInfo?appId=10103 runs 83.444s...
+[2016-03-09 15:08:32,055 INFO]{"success":false,"error":"轻应用不存在!"}
+[2016-03-09 15:09:20,719 INFO]Request: 
+[2016-03-09 15:09:20,721 INFO]Get http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:09:22,859 INFO]completed successful!
+[2016-03-09 15:09:22,859 INFO]Response:
+[2016-03-09 15:09:22,859 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:09:22,859 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:09:22,859 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:09:22,859 INFO]Date: Wed, 09 Mar 2016 07:09:22 GMT
+[2016-03-09 15:09:22,860 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:09:22 GMT; Path=/
+[2016-03-09 15:09:22,860 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:09:22 GMT; Path=/
+[2016-03-09 15:09:22,860 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:09:22 GMT; Path=/
+[2016-03-09 15:09:22,860 INFO]Cache-Control: no-cache
+[2016-03-09 15:09:22,860 INFO]Content-Length: 331
+[2016-03-09 15:09:22,861 INFO]url http://localhost:7000/pubacc/api/innerAppInfo?appId=10103 runs 2.142s...
+[2016-03-09 15:09:22,861 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 15:09:59,949 INFO]Request: 
+[2016-03-09 15:09:59,951 INFO]Get http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:10:01,284 INFO]completed successful!
+[2016-03-09 15:10:01,284 INFO]Response:
+[2016-03-09 15:10:01,284 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:10:01,285 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:10:01,285 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:10:01,285 INFO]Date: Wed, 09 Mar 2016 07:10:01 GMT
+[2016-03-09 15:10:01,285 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:10:01 GMT; Path=/
+[2016-03-09 15:10:01,285 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:10:01 GMT; Path=/
+[2016-03-09 15:10:01,285 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:10:01 GMT; Path=/
+[2016-03-09 15:10:01,285 INFO]Cache-Control: no-cache
+[2016-03-09 15:10:01,285 INFO]Content-Length: 331
+[2016-03-09 15:10:01,286 INFO]url http://localhost:7000/pubacc/api/innerAppInfo?appId=10103 runs 1.34s...
+[2016-03-09 15:10:01,286 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 15:10:38,852 INFO]Request: 
+[2016-03-09 15:10:38,854 INFO]Get http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:10:43,587 INFO]completed successful!
+[2016-03-09 15:10:43,587 INFO]Response:
+[2016-03-09 15:10:43,588 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:10:43,589 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:10:43,589 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:10:43,590 INFO]Date: Wed, 09 Mar 2016 07:10:43 GMT
+[2016-03-09 15:10:43,590 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:10:43 GMT; Path=/
+[2016-03-09 15:10:43,590 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:10:43 GMT; Path=/
+[2016-03-09 15:10:43,590 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:10:43 GMT; Path=/
+[2016-03-09 15:10:43,590 INFO]Cache-Control: no-cache
+[2016-03-09 15:10:43,590 INFO]Content-Length: 51
+[2016-03-09 15:10:43,592 INFO]url http://localhost:7000/pubacc/api/innerAppInfo?appId=10103 runs 4.74s...
+[2016-03-09 15:10:43,592 INFO]{"success":false,"error":"appId is null or empty!"}
+[2016-03-09 15:18:40,564 INFO]Request: 
+[2016-03-09 15:18:40,565 INFO]Get http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:18:40,569 INFO]Get Params: appId=10103
+[2016-03-09 15:18:44,284 INFO]completed successful!
+[2016-03-09 15:18:44,284 INFO]Response:
+[2016-03-09 15:18:44,285 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:18:44,285 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:18:44,285 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:18:44,285 INFO]Date: Wed, 09 Mar 2016 07:18:44 GMT
+[2016-03-09 15:18:44,285 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:18:44 GMT; Path=/
+[2016-03-09 15:18:44,285 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:18:44 GMT; Path=/
+[2016-03-09 15:18:44,285 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:18:44 GMT; Path=/
+[2016-03-09 15:18:44,285 INFO]Cache-Control: no-cache
+[2016-03-09 15:18:44,285 INFO]Content-Length: 331
+[2016-03-09 15:18:44,288 INFO]url http://localhost:7000/pubacc/api/innerAppInfo?appId=10103 runs 3.725s...
+[2016-03-09 15:18:44,288 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 15:19:03,153 INFO]Request: 
+[2016-03-09 15:19:03,155 INFO]Get http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:19:03,156 INFO]Get Params: appId=10103
+[2016-03-09 15:19:05,205 INFO]completed successful!
+[2016-03-09 15:19:05,205 INFO]Response:
+[2016-03-09 15:19:05,205 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:19:05,206 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:19:05,206 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:19:05,206 INFO]Date: Wed, 09 Mar 2016 07:19:05 GMT
+[2016-03-09 15:19:05,206 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:19:05 GMT; Path=/
+[2016-03-09 15:19:05,206 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:19:05 GMT; Path=/
+[2016-03-09 15:19:05,206 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:19:05 GMT; Path=/
+[2016-03-09 15:19:05,206 INFO]Cache-Control: no-cache
+[2016-03-09 15:19:05,206 INFO]Content-Length: 331
+[2016-03-09 15:19:05,207 INFO]url http://localhost:7000/pubacc/api/innerAppInfo?appId=10103 runs 2.055s...
+[2016-03-09 15:19:05,207 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 15:19:05,207 INFO]Request: 
+[2016-03-09 15:19:05,207 INFO]Post http://localhost:7000/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:19:05,207 INFO]Post Params: appId=10103
+[2016-03-09 15:19:08,823 INFO]completed successful!
+[2016-03-09 15:19:08,824 INFO]Response:
+[2016-03-09 15:19:08,824 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:19:08,824 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:19:08,824 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:19:08,825 INFO]Date: Wed, 09 Mar 2016 07:19:08 GMT
+[2016-03-09 15:19:08,825 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:19:08 GMT; Path=/
+[2016-03-09 15:19:08,825 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:19:08 GMT; Path=/
+[2016-03-09 15:19:08,825 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:19:08 GMT; Path=/
+[2016-03-09 15:19:08,825 INFO]Cache-Control: no-cache
+[2016-03-09 15:19:08,826 INFO]Content-Length: 331
+[2016-03-09 15:19:08,826 INFO]url http://localhost:7000/pubacc/api/innerAppInfo?appId=10103 runs 3.619s...
+[2016-03-09 15:19:08,826 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 15:20:30,381 INFO]Request: 
+[2016-03-09 15:20:30,383 INFO]Get http://localhost:7000/pubacc/searchUsers?name=许炳松
+[2016-03-09 15:20:30,385 INFO]Get Params: name=许炳松&mid=10109
+[2016-03-09 15:20:31,003 INFO]completed successful!
+[2016-03-09 15:20:31,004 INFO]Response:
+[2016-03-09 15:20:31,004 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:20:31,004 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:20:31,004 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:20:31,004 INFO]Date: Wed, 09 Mar 2016 07:20:30 GMT
+[2016-03-09 15:20:31,004 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:20:30 GMT; Path=/
+[2016-03-09 15:20:31,004 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:20:30 GMT; Path=/
+[2016-03-09 15:20:31,004 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:20:30 GMT; Path=/
+[2016-03-09 15:20:31,004 INFO]Cache-Control: no-cache
+[2016-03-09 15:20:31,004 INFO]Content-Length: 977
+[2016-03-09 15:20:31,006 INFO]url http://localhost:7000/pubacc/searchUsers?name=许炳松 runs 0.626s...
+[2016-03-09 15:20:31,006 INFO][{"birthday":"2000-01-21","createTime":"2014-07-01 17:18:11","phone":"15920157675","fullPinyinCode":"98 2464 7664","lastUpdateTime":"2016-03-03 18:50:00","department":"移动互联平台开发部（云之家产品部）本部","registerDate":1404206291336,"eid":"10109","userType":10,"orgId":"82c05579-5b60-11e4-9273-dc8e3044c615","id":"a7a7d99d-0100-11e4-b562-648e9a59efa3","name":"许炳松","wbUserId":"53b27cd31a060675d6cdb8fd","gender":"0","firstPinyin":"xbs","jobTitle":"职员","status":1,"orgInfoId":"4524bce8-ac3c-11e3-8718-e41f137ad9f4","firstPinyinCode":"927","companyName":"金蝶国际软件集团有限公司","email":"bingsong_xu@kingdee.com","weights":2147483647,"activeTime":"2014-07-01 17:18:11","active":"1","isAdmin":1,"photoUrl":"http://192.168.22.144/space/c/photo/load?id\u003d55cc35c400b0523a725fd71c","wbNetworkId":"383cee68-cea3-4818-87ae-24fb46e081b1","oId":"7b1096ec-90be-42a8-bde2-e1c6a7ed4371","orgUserType":0,"openId":"53b27cd31a060675d6cdb8fd"}]
+[2016-03-09 15:20:51,849 INFO]Request: 
+[2016-03-09 15:20:51,851 INFO]Get http://localhost:7000/pubacc/searchUsers?name=许炳松
+[2016-03-09 15:20:51,852 INFO]Get Params: name=许炳松&mid=10109
+[2016-03-09 15:20:52,370 INFO]completed successful!
+[2016-03-09 15:20:52,370 INFO]Response:
+[2016-03-09 15:20:52,371 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:20:52,371 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:20:52,371 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:20:52,371 INFO]Date: Wed, 09 Mar 2016 07:20:52 GMT
+[2016-03-09 15:20:52,371 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:20:52 GMT; Path=/
+[2016-03-09 15:20:52,371 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:20:52 GMT; Path=/
+[2016-03-09 15:20:52,371 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:20:52 GMT; Path=/
+[2016-03-09 15:20:52,371 INFO]Cache-Control: no-cache
+[2016-03-09 15:20:52,371 INFO]Content-Length: 977
+[2016-03-09 15:20:52,372 INFO]url http://localhost:7000/pubacc/searchUsers?name=许炳松 runs 0.524s...
+[2016-03-09 15:20:52,372 INFO][{"birthday":"2000-01-21","createTime":"2014-07-01 17:18:11","phone":"15920157675","fullPinyinCode":"98 2464 7664","lastUpdateTime":"2016-03-03 18:50:00","department":"移动互联平台开发部（云之家产品部）本部","registerDate":1404206291336,"eid":"10109","userType":10,"orgId":"82c05579-5b60-11e4-9273-dc8e3044c615","id":"a7a7d99d-0100-11e4-b562-648e9a59efa3","name":"许炳松","wbUserId":"53b27cd31a060675d6cdb8fd","gender":"0","firstPinyin":"xbs","jobTitle":"职员","status":1,"orgInfoId":"4524bce8-ac3c-11e3-8718-e41f137ad9f4","firstPinyinCode":"927","companyName":"金蝶国际软件集团有限公司","email":"bingsong_xu@kingdee.com","weights":2147483647,"activeTime":"2014-07-01 17:18:11","active":"1","isAdmin":1,"photoUrl":"http://192.168.22.144/space/c/photo/load?id\u003d55cc35c400b0523a725fd71c","wbNetworkId":"383cee68-cea3-4818-87ae-24fb46e081b1","oId":"7b1096ec-90be-42a8-bde2-e1c6a7ed4371","orgUserType":0,"openId":"53b27cd31a060675d6cdb8fd"}]
+[2016-03-09 15:21:59,313 INFO]Request: 
+[2016-03-09 15:21:59,315 INFO]Get http://localhost:7000/pubacc/searchUsers?name=许炳松
+[2016-03-09 15:21:59,317 INFO]Get Params: name=许炳松&mid=10109
+[2016-03-09 15:21:59,927 INFO]completed successful!
+[2016-03-09 15:21:59,927 INFO]Response:
+[2016-03-09 15:21:59,927 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:21:59,927 INFO]Server: Play! Framework;1.3.1;dev
+[2016-03-09 15:21:59,927 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:21:59,928 INFO]Date: Wed, 09 Mar 2016 07:21:59 GMT
+[2016-03-09 15:21:59,928 INFO]Set-Cookie: PLAY_FLASH=; Expires=Wed, 09 Mar 2016 07:21:59 GMT; Path=/
+[2016-03-09 15:21:59,928 INFO]Set-Cookie: PLAY_ERRORS=; Expires=Wed, 09 Mar 2016 07:21:59 GMT; Path=/
+[2016-03-09 15:21:59,928 INFO]Set-Cookie: PLAY_SESSION=; Expires=Wed, 09 Mar 2016 07:21:59 GMT; Path=/
+[2016-03-09 15:21:59,928 INFO]Cache-Control: no-cache
+[2016-03-09 15:21:59,928 INFO]Content-Length: 977
+[2016-03-09 15:21:59,929 INFO]url http://localhost:7000/pubacc/searchUsers?name=许炳松 runs 0.617s...
+[2016-03-09 15:21:59,929 INFO][{"birthday":"2000-01-21","createTime":"2014-07-01 17:18:11","phone":"15920157675","fullPinyinCode":"98 2464 7664","lastUpdateTime":"2016-03-03 18:50:00","department":"移动互联平台开发部（云之家产品部）本部","registerDate":1404206291336,"eid":"10109","userType":10,"orgId":"82c05579-5b60-11e4-9273-dc8e3044c615","id":"a7a7d99d-0100-11e4-b562-648e9a59efa3","name":"许炳松","wbUserId":"53b27cd31a060675d6cdb8fd","gender":"0","firstPinyin":"xbs","jobTitle":"职员","status":1,"orgInfoId":"4524bce8-ac3c-11e3-8718-e41f137ad9f4","firstPinyinCode":"927","companyName":"金蝶国际软件集团有限公司","email":"bingsong_xu@kingdee.com","weights":2147483647,"activeTime":"2014-07-01 17:18:11","active":"1","isAdmin":1,"photoUrl":"http://192.168.22.144/space/c/photo/load?id\u003d55cc35c400b0523a725fd71c","wbNetworkId":"383cee68-cea3-4818-87ae-24fb46e081b1","oId":"7b1096ec-90be-42a8-bde2-e1c6a7ed4371","orgUserType":0,"openId":"53b27cd31a060675d6cdb8fd"}]
+[2016-03-09 15:21:59,930 INFO]Request: 
+[2016-03-09 15:21:59,930 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 15:21:59,930 INFO]Post Params: appId=10103
+[2016-03-09 15:21:59,966 WARN]Cookie rejected [cid="wKgWkFbfzxwLV1sYAzShAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 15:22:04 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 15:21:59,967 INFO]completed successful!
+[2016-03-09 15:21:59,967 INFO]Response:
+[2016-03-09 15:21:59,967 INFO]HTTP/1.1 200 OK
+[2016-03-09 15:21:59,967 INFO]Server: nginx/1.4.4
+[2016-03-09 15:21:59,967 INFO]Date: Wed, 09 Mar 2016 07:22:04 GMT
+[2016-03-09 15:21:59,967 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 15:21:59,967 INFO]Content-Length: 331
+[2016-03-09 15:21:59,967 INFO]Connection: keep-alive
+[2016-03-09 15:21:59,968 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 07:22:04 GMT;Path=/
+[2016-03-09 15:21:59,968 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 07:22:04 GMT;Path=/
+[2016-03-09 15:21:59,968 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 07:22:04 GMT;Path=/
+[2016-03-09 15:21:59,968 INFO]Cache-Control: no-cache
+[2016-03-09 15:21:59,968 INFO]Set-Cookie: cid=wKgWkFbfzxwLV1sYAzShAg==; expires=Sat, 07-Mar-26 07:22:04 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 15:21:59,968 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.038s...
+[2016-03-09 15:21:59,968 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 16:31:41,638 INFO]Request: 
+[2016-03-09 16:31:41,640 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 16:31:41,641 INFO]Post Params: appId=10103
+[2016-03-09 16:31:41,947 WARN]Cookie rejected [cid="wKgWkFbf33Ivb2DxAwMwAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:31:46 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:31:41,952 INFO]completed successful!
+[2016-03-09 16:31:41,952 INFO]Response:
+[2016-03-09 16:31:41,952 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:31:41,952 INFO]Server: nginx/1.4.4
+[2016-03-09 16:31:41,952 INFO]Date: Wed, 09 Mar 2016 08:31:46 GMT
+[2016-03-09 16:31:41,953 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 16:31:41,953 INFO]Content-Length: 331
+[2016-03-09 16:31:41,953 INFO]Connection: keep-alive
+[2016-03-09 16:31:41,953 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 08:31:46 GMT;Path=/
+[2016-03-09 16:31:41,953 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 08:31:46 GMT;Path=/
+[2016-03-09 16:31:41,953 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 08:31:46 GMT;Path=/
+[2016-03-09 16:31:41,953 INFO]Cache-Control: no-cache
+[2016-03-09 16:31:41,953 INFO]Set-Cookie: cid=wKgWkFbf33Ivb2DxAwMwAg==; expires=Sat, 07-Mar-26 08:31:46 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:31:41,955 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.317s...
+[2016-03-09 16:31:54,962 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3DlRudaAEghEJGEHkw%26oauth_nonce%3D3365218187%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457512314%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-09 16:31:55,082 INFO]OAuth signature: WdCehn45vhQaqxwTnm7Jv9mDF4I=
+[2016-03-09 16:31:55,083 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512314",oauth_nonce="3365218187",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="WdCehn45vhQaqxwTnm7Jv9mDF4I%3D"
+[2016-03-09 16:31:55,091 INFO]Request: 
+[2016-03-09 16:31:55,091 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-09 16:31:55,093 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-09 16:31:55,104 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512314",oauth_nonce="3365218187",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="WdCehn45vhQaqxwTnm7Jv9mDF4I%3D"
+[2016-03-09 16:31:55,104 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-09 16:31:55,403 WARN]Cookie rejected [cid="wKgWXFbf34ECj3WnAxE5Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:32:01 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:31:55,404 WARN]Cookie rejected [cid="wKgWkFbf338vb2DxAwNLAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:31:59 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:31:55,407 INFO]completed successful!
+[2016-03-09 16:31:55,407 INFO]Response:
+[2016-03-09 16:31:55,407 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:31:55,407 INFO]Server: nginx/1.4.4
+[2016-03-09 16:31:55,407 INFO]Date: Wed, 09 Mar 2016 08:31:59 GMT
+[2016-03-09 16:31:55,407 INFO]Content-Type: application/json
+[2016-03-09 16:31:55,407 INFO]Content-Length: 234
+[2016-03-09 16:31:55,408 INFO]Connection: keep-alive
+[2016-03-09 16:31:55,408 INFO]Set-Cookie: cid=wKgWXFbf34ECj3WnAxE5Ag==; expires=Sat, 07-Mar-26 08:32:01 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:31:55,408 INFO]Set-Cookie: cid=wKgWkFbf338vb2DxAwNLAg==; expires=Sat, 07-Mar-26 08:31:59 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:31:55,409 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.318s...
+[2016-03-09 16:32:14,405 INFO]Request: 
+[2016-03-09 16:32:14,407 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 16:32:14,411 INFO]Post Params: appId=10103
+[2016-03-09 16:32:14,717 WARN]Cookie rejected [cid="wKgWkFbf35Mvb2DxAwNkAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:32:19 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:32:14,720 INFO]completed successful!
+[2016-03-09 16:32:14,721 INFO]Response:
+[2016-03-09 16:32:14,721 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:32:14,721 INFO]Server: nginx/1.4.4
+[2016-03-09 16:32:14,721 INFO]Date: Wed, 09 Mar 2016 08:32:19 GMT
+[2016-03-09 16:32:14,721 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 16:32:14,721 INFO]Content-Length: 331
+[2016-03-09 16:32:14,721 INFO]Connection: keep-alive
+[2016-03-09 16:32:14,721 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 08:32:18 GMT;Path=/
+[2016-03-09 16:32:14,721 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 08:32:18 GMT;Path=/
+[2016-03-09 16:32:14,721 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 08:32:18 GMT;Path=/
+[2016-03-09 16:32:14,722 INFO]Cache-Control: no-cache
+[2016-03-09 16:32:14,722 INFO]Set-Cookie: cid=wKgWkFbf35Mvb2DxAwNkAg==; expires=Sat, 07-Mar-26 08:32:19 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:32:14,723 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.318s...
+[2016-03-09 16:34:35,275 INFO]Request: 
+[2016-03-09 16:34:35,279 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 16:34:35,282 INFO]Post Params: appId=10103
+[2016-03-09 16:34:35,626 WARN]Cookie rejected [cid="wKgWkFbf4CAvWmDyAwMSAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:34:40 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:34:35,630 INFO]completed successful!
+[2016-03-09 16:34:35,630 INFO]Response:
+[2016-03-09 16:34:35,630 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:34:35,630 INFO]Server: nginx/1.4.4
+[2016-03-09 16:34:35,630 INFO]Date: Wed, 09 Mar 2016 08:34:40 GMT
+[2016-03-09 16:34:35,631 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 16:34:35,631 INFO]Content-Length: 331
+[2016-03-09 16:34:35,631 INFO]Connection: keep-alive
+[2016-03-09 16:34:35,631 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 08:34:39 GMT;Path=/
+[2016-03-09 16:34:35,631 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 08:34:39 GMT;Path=/
+[2016-03-09 16:34:35,631 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 08:34:39 GMT;Path=/
+[2016-03-09 16:34:35,631 INFO]Cache-Control: no-cache
+[2016-03-09 16:34:35,631 INFO]Set-Cookie: cid=wKgWkFbf4CAvWmDyAwMSAg==; expires=Sat, 07-Mar-26 08:34:40 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:34:35,632 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 16:34:35,632 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.357s...
+[2016-03-09 16:36:16,751 INFO]Request: 
+[2016-03-09 16:36:16,753 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 16:36:16,755 INFO]Post Params: appId=10103
+[2016-03-09 16:36:17,056 WARN]Cookie rejected [cid="wKgWkFbf4IUvWmDyAwMcAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:36:21 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:36:17,060 INFO]completed successful!
+[2016-03-09 16:36:17,060 INFO]Response:
+[2016-03-09 16:36:17,060 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:36:17,060 INFO]Server: nginx/1.4.4
+[2016-03-09 16:36:17,060 INFO]Date: Wed, 09 Mar 2016 08:36:21 GMT
+[2016-03-09 16:36:17,060 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 16:36:17,060 INFO]Content-Length: 331
+[2016-03-09 16:36:17,060 INFO]Connection: keep-alive
+[2016-03-09 16:36:17,060 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 08:36:21 GMT;Path=/
+[2016-03-09 16:36:17,061 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 08:36:21 GMT;Path=/
+[2016-03-09 16:36:17,061 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 08:36:21 GMT;Path=/
+[2016-03-09 16:36:17,061 INFO]Cache-Control: no-cache
+[2016-03-09 16:36:17,061 INFO]Set-Cookie: cid=wKgWkFbf4IUvWmDyAwMcAg==; expires=Sat, 07-Mar-26 08:36:21 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:36:17,063 INFO]response content: {"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 16:36:17,063 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.312s...
+[2016-03-09 16:36:46,254 INFO]Request: 
+[2016-03-09 16:36:46,256 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 16:36:46,258 INFO]Post Params: appId=10103
+[2016-03-09 16:36:46,557 WARN]Cookie rejected [cid="wKgWkFbf4KMvWmDyAwMiAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:36:51 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:36:46,560 INFO]completed successful!
+[2016-03-09 16:36:46,560 INFO]Response:
+[2016-03-09 16:36:46,560 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:36:46,560 INFO]Server: nginx/1.4.4
+[2016-03-09 16:36:46,560 INFO]Date: Wed, 09 Mar 2016 08:36:51 GMT
+[2016-03-09 16:36:46,560 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 16:36:46,560 INFO]Content-Length: 331
+[2016-03-09 16:36:46,561 INFO]Connection: keep-alive
+[2016-03-09 16:36:46,561 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 08:36:50 GMT;Path=/
+[2016-03-09 16:36:46,561 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 08:36:50 GMT;Path=/
+[2016-03-09 16:36:46,561 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 08:36:50 GMT;Path=/
+[2016-03-09 16:36:46,561 INFO]Cache-Control: no-cache
+[2016-03-09 16:36:46,561 INFO]Set-Cookie: cid=wKgWkFbf4KMvWmDyAwMiAg==; expires=Sat, 07-Mar-26 08:36:51 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:36:46,563 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.309s...
+[2016-03-09 16:36:46,563 INFO]response content: {"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 16:36:58,679 INFO]Request: 
+[2016-03-09 16:36:58,680 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-09 16:36:58,682 INFO]Post Params: appId=10103
+[2016-03-09 16:36:58,983 WARN]Cookie rejected [cid="wKgWkFbf4K8vWmDyAwMmAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:37:03 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:36:58,988 INFO]completed successful!
+[2016-03-09 16:36:58,988 INFO]Response:
+[2016-03-09 16:36:58,990 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:36:58,990 INFO]Server: nginx/1.4.4
+[2016-03-09 16:36:58,990 INFO]Date: Wed, 09 Mar 2016 08:37:03 GMT
+[2016-03-09 16:36:58,990 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-09 16:36:58,990 INFO]Content-Length: 331
+[2016-03-09 16:36:58,990 INFO]Connection: keep-alive
+[2016-03-09 16:36:58,990 INFO]Set-Cookie: PLAY_FLASH=;Expires=Wed, 9-Mar-2016 08:37:03 GMT;Path=/
+[2016-03-09 16:36:58,990 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Wed, 9-Mar-2016 08:37:03 GMT;Path=/
+[2016-03-09 16:36:58,990 INFO]Set-Cookie: PLAY_SESSION=;Expires=Wed, 9-Mar-2016 08:37:03 GMT;Path=/
+[2016-03-09 16:36:58,991 INFO]Cache-Control: no-cache
+[2016-03-09 16:36:58,991 INFO]Set-Cookie: cid=wKgWkFbf4K8vWmDyAwMmAg==; expires=Sat, 07-Mar-26 08:37:03 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:36:58,992 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.314s...
+[2016-03-09 16:36:58,992 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-09 16:37:17,178 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3DlRudaAEghEJGEHkw%26oauth_nonce%3D-242777558%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457512637%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-09 16:37:17,295 INFO]OAuth signature: mm88Ae2X+zJRjnkmhqHEhe7B6T8=
+[2016-03-09 16:37:17,295 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512637",oauth_nonce="-242777558",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="mm88Ae2X%2BzJRjnkmhqHEhe7B6T8%3D"
+[2016-03-09 16:37:17,311 INFO]Request: 
+[2016-03-09 16:37:17,311 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-09 16:37:17,313 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-09 16:37:17,323 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512637",oauth_nonce="-242777558",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="mm88Ae2X%2BzJRjnkmhqHEhe7B6T8%3D"
+[2016-03-09 16:37:17,323 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-09 16:37:17,858 WARN]Cookie rejected [cid="wKgWXFbf4MMCj3WnAxF0Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:37:23 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:37:17,859 WARN]Cookie rejected [cid="wKgWkFbf4MIvWmDyAwMnAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:37:22 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:37:17,863 INFO]completed successful!
+[2016-03-09 16:37:17,863 INFO]Response:
+[2016-03-09 16:37:17,864 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:37:17,864 INFO]Server: nginx/1.4.4
+[2016-03-09 16:37:17,864 INFO]Date: Wed, 09 Mar 2016 08:37:22 GMT
+[2016-03-09 16:37:17,864 INFO]Content-Type: application/json
+[2016-03-09 16:37:17,864 INFO]Content-Length: 234
+[2016-03-09 16:37:17,864 INFO]Connection: keep-alive
+[2016-03-09 16:37:17,864 INFO]Set-Cookie: cid=wKgWXFbf4MMCj3WnAxF0Ag==; expires=Sat, 07-Mar-26 08:37:23 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:37:17,864 INFO]Set-Cookie: cid=wKgWkFbf4MIvWmDyAwMnAg==; expires=Sat, 07-Mar-26 08:37:22 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:37:17,867 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.556s...
+[2016-03-09 16:37:17,867 INFO]{"data":{"titlePbColor":"#36feac","titleBgColor":"#01d386","url":"http://192.168.22.142/manage/ticket/userIdentify.action?appid=10103&ticket=07654869ea5a2d04eea9fdf529e91386","appid":"10103"},"success":true,"error":null,"errorCode":0}
+[2016-03-09 16:40:14,152 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3DlRudaAEghEJGEHkw%26oauth_nonce%3D2501392417%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457512814%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-09 16:40:14,267 INFO]OAuth signature: 93yFeXur/kwVUdjrC+NY6dVMuUk=
+[2016-03-09 16:40:14,268 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512814",oauth_nonce="2501392417",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="93yFeXur%2FkwVUdjrC%2BNY6dVMuUk%3D"
+[2016-03-09 16:40:14,276 INFO]Request: 
+[2016-03-09 16:40:14,276 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-09 16:40:14,277 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-09 16:40:14,287 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512814",oauth_nonce="2501392417",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="93yFeXur%2FkwVUdjrC%2BNY6dVMuUk%3D"
+[2016-03-09 16:40:14,288 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-09 16:40:14,602 WARN]Cookie rejected [cid="wKgWXFbf4XQCj3WnAxF7Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:40:20 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:40:14,602 WARN]Cookie rejected [cid="wKgWkFbf4XMvWmDyAwM6Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:40:19 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:40:14,606 INFO]completed successful!
+[2016-03-09 16:40:14,606 INFO]Response:
+[2016-03-09 16:40:14,606 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:40:14,606 INFO]Server: nginx/1.4.4
+[2016-03-09 16:40:14,606 INFO]Date: Wed, 09 Mar 2016 08:40:19 GMT
+[2016-03-09 16:40:14,606 INFO]Content-Type: application/json
+[2016-03-09 16:40:14,606 INFO]Content-Length: 234
+[2016-03-09 16:40:14,606 INFO]Connection: keep-alive
+[2016-03-09 16:40:14,606 INFO]Set-Cookie: cid=wKgWXFbf4XQCj3WnAxF7Ag==; expires=Sat, 07-Mar-26 08:40:20 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:40:14,606 INFO]Set-Cookie: cid=wKgWkFbf4XMvWmDyAwM6Ag==; expires=Sat, 07-Mar-26 08:40:19 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:40:14,609 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.333s...
+[2016-03-09 16:40:14,609 INFO]{"data":{"titlePbColor":"#36feac","titleBgColor":"#01d386","url":"http://192.168.22.142/manage/ticket/userIdentify.action?appid=10103&ticket=807390f587f0f2dc07a4f71413c127a7","appid":"10103"},"success":true,"error":null,"errorCode":0}
+[2016-03-09 16:40:24,886 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3DlRudaAEghEJGEHkw%26oauth_nonce%3D-252733562%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457512824%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-09 16:40:24,997 INFO]OAuth signature: xhmjMnUNltrAsPcQSnRxlPfDWzE=
+[2016-03-09 16:40:24,998 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512824",oauth_nonce="-252733562",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="xhmjMnUNltrAsPcQSnRxlPfDWzE%3D"
+[2016-03-09 16:40:25,006 INFO]Request: 
+[2016-03-09 16:40:25,007 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-09 16:40:25,008 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-09 16:40:25,018 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457512824",oauth_nonce="-252733562",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="xhmjMnUNltrAsPcQSnRxlPfDWzE%3D"
+[2016-03-09 16:40:25,018 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-09 16:40:25,777 WARN]Cookie rejected [cid="wKgWXFbf4X8Cj3WnAxF8Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:40:31 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:40:25,778 WARN]Cookie rejected [cid="wKgWkFbf4X4vWmDyAwM7Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 16:40:30 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 16:40:25,781 INFO]completed successful!
+[2016-03-09 16:40:25,781 INFO]Response:
+[2016-03-09 16:40:25,781 INFO]HTTP/1.1 200 OK
+[2016-03-09 16:40:25,781 INFO]Server: nginx/1.4.4
+[2016-03-09 16:40:25,781 INFO]Date: Wed, 09 Mar 2016 08:40:30 GMT
+[2016-03-09 16:40:25,781 INFO]Content-Type: application/json
+[2016-03-09 16:40:25,782 INFO]Content-Length: 234
+[2016-03-09 16:40:25,782 INFO]Connection: keep-alive
+[2016-03-09 16:40:25,782 INFO]Set-Cookie: cid=wKgWXFbf4X8Cj3WnAxF8Ag==; expires=Sat, 07-Mar-26 08:40:31 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:40:25,782 INFO]Set-Cookie: cid=wKgWkFbf4X4vWmDyAwM7Ag==; expires=Sat, 07-Mar-26 08:40:30 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 16:40:25,783 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.777s...
+[2016-03-09 16:40:25,783 INFO]{"data":{"titlePbColor":"#36feac","titleBgColor":"#01d386","url":"http://192.168.22.142/manage/ticket/userIdentify.action?appid=10103&ticket=c9331cd50a56c8911e3e321d252f6a4c","appid":"10103"},"success":true,"error":null,"errorCode":0}
+[2016-03-09 17:03:19,281 INFO]Structure OAuth Authorization: 
+[2016-03-09 17:03:19,283 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3DlRudaAEghEJGEHkw%26oauth_nonce%3D-322104746%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457514199%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-09 17:03:19,401 INFO]OAuth signature: l2K2h+Lo2DwQZhDkdfiZm8UTVpo=
+[2016-03-09 17:03:19,401 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457514199",oauth_nonce="-322104746",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="l2K2h%2BLo2DwQZhDkdfiZm8UTVpo%3D"
+[2016-03-09 17:03:19,408 INFO]Request: 
+[2016-03-09 17:03:19,409 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-09 17:03:19,410 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-09 17:03:19,420 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457514199",oauth_nonce="-322104746",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="l2K2h%2BLo2DwQZhDkdfiZm8UTVpo%3D"
+[2016-03-09 17:03:19,421 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-09 17:03:19,730 WARN]Cookie rejected [cid="wKgWXFbf5t0Cj3WmAxFpAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 17:03:25 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 17:03:19,731 WARN]Cookie rejected [cid="wKgWkFbf5twvWmDyAwYVAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 17:03:24 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 17:03:19,735 INFO]completed successful!
+[2016-03-09 17:03:19,735 INFO]Response:
+[2016-03-09 17:03:19,735 INFO]HTTP/1.1 200 OK
+[2016-03-09 17:03:19,735 INFO]Server: nginx/1.4.4
+[2016-03-09 17:03:19,737 INFO]Date: Wed, 09 Mar 2016 09:03:24 GMT
+[2016-03-09 17:03:19,737 INFO]Content-Type: application/json
+[2016-03-09 17:03:19,737 INFO]Content-Length: 234
+[2016-03-09 17:03:19,737 INFO]Connection: keep-alive
+[2016-03-09 17:03:19,737 INFO]Set-Cookie: cid=wKgWXFbf5t0Cj3WmAxFpAg==; expires=Sat, 07-Mar-26 09:03:25 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 17:03:19,737 INFO]Set-Cookie: cid=wKgWkFbf5twvWmDyAwYVAg==; expires=Sat, 07-Mar-26 09:03:24 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 17:03:19,740 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.332s...
+[2016-03-09 17:03:19,741 INFO]{"data":{"titlePbColor":"#36feac","titleBgColor":"#01d386","url":"http://192.168.22.142/manage/ticket/userIdentify.action?appid=10103&ticket=ad171c57ab28f8e1f2f3616050704880","appid":"10103"},"success":true,"error":null,"errorCode":0}
+[2016-03-09 17:03:24,004 INFO]Structure OAuth Authorization: 
+[2016-03-09 17:03:24,006 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3DlRudaAEghEJGEHkw%26oauth_nonce%3D2916187470%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457514203%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-09 17:03:24,121 INFO]OAuth signature: um6D+Jj1R/M1mrdNZqQDtGjyi4A=
+[2016-03-09 17:03:24,122 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457514203",oauth_nonce="2916187470",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="um6D%2BJj1R%2FM1mrdNZqQDtGjyi4A%3D"
+[2016-03-09 17:03:24,130 INFO]Request: 
+[2016-03-09 17:03:24,130 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-09 17:03:24,132 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-09 17:03:24,142 INFO]Authorization: OAuth oauth_consumer_key="lRudaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457514203",oauth_nonce="2916187470",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="um6D%2BJj1R%2FM1mrdNZqQDtGjyi4A%3D"
+[2016-03-09 17:03:24,142 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-09 17:03:24,454 WARN]Cookie rejected [cid="wKgWXFbf5uICj3WmAxFqAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 17:03:30 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 17:03:24,454 WARN]Cookie rejected [cid="wKgWkFbf5uEvWmDyAwYXAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sat Mar 07 17:03:29 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-09 17:03:24,458 INFO]completed successful!
+[2016-03-09 17:03:24,458 INFO]Response:
+[2016-03-09 17:03:24,458 INFO]HTTP/1.1 200 OK
+[2016-03-09 17:03:24,459 INFO]Server: nginx/1.4.4
+[2016-03-09 17:03:24,459 INFO]Date: Wed, 09 Mar 2016 09:03:29 GMT
+[2016-03-09 17:03:24,459 INFO]Content-Type: application/json
+[2016-03-09 17:03:24,459 INFO]Content-Length: 234
+[2016-03-09 17:03:24,459 INFO]Connection: keep-alive
+[2016-03-09 17:03:24,459 INFO]Set-Cookie: cid=wKgWXFbf5uICj3WmAxFqAg==; expires=Sat, 07-Mar-26 09:03:30 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 17:03:24,459 INFO]Set-Cookie: cid=wKgWkFbf5uEvWmDyAwYXAg==; expires=Sat, 07-Mar-26 09:03:29 GMT; domain=kdweibo.cn; path=/
+[2016-03-09 17:03:24,461 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.33s...
+[2016-03-09 17:03:24,461 INFO]{"data":{"titlePbColor":"#36feac","titleBgColor":"#01d386","url":"http://192.168.22.142/manage/ticket/userIdentify.action?appid=10103&ticket=c45e0212253dd48d449cf264a733e945","appid":"10103"},"success":true,"error":null,"errorCode":0}
+[2016-03-10 09:52:34,752 INFO]Structure OAuth Authorization: 
+[2016-03-10 09:52:34,754 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D12udaAEghEJGEHkw%26oauth_nonce%3D489843077%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457574754%26oauth_version%3D1.0
+[2016-03-10 09:52:34,902 INFO]OAuth signature: c5c+h8d72mSmB57kay6sPrAVttU=
+[2016-03-10 09:52:34,903 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574754",oauth_nonce="489843077",oauth_version="1.0",oauth_signature="c5c%2Bh8d72mSmB57kay6sPrAVttU%3D"
+[2016-03-10 09:52:34,909 INFO]Request: 
+[2016-03-10 09:52:34,909 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 09:52:34,936 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 09:52:34,944 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574754",oauth_nonce="489843077",oauth_version="1.0",oauth_signature="c5c%2Bh8d72mSmB57kay6sPrAVttU%3D"
+[2016-03-10 09:52:34,944 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 09:52:35,182 WARN]Cookie rejected [cid="wKgWWlbg02Ok71OTAzGUAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:52:35 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:52:35,182 WARN]Cookie rejected [cid="wKgBMVbg02G//zRNBIEcAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:52:33 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:52:35,185 INFO]completed successful!
+[2016-03-10 09:52:35,185 INFO]Response:
+[2016-03-10 09:52:35,185 INFO]HTTP/1.1 200 OK
+[2016-03-10 09:52:35,185 INFO]Server: nginx/1.6.0
+[2016-03-10 09:52:35,185 INFO]Date: Thu, 10 Mar 2016 01:52:33 GMT
+[2016-03-10 09:52:35,186 INFO]Content-Type: application/json
+[2016-03-10 09:52:35,186 INFO]Content-Length: 91
+[2016-03-10 09:52:35,186 INFO]Connection: keep-alive
+[2016-03-10 09:52:35,186 INFO]Set-Cookie: cid=wKgWWlbg02Ok71OTAzGUAg==; expires=Sun, 08-Mar-26 01:52:35 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:52:35,186 INFO]Set-Cookie: cid=wKgBMVbg02G//zRNBIEcAg==; expires=Sun, 08-Mar-26 01:52:33 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:52:35,187 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.278s...
+[2016-03-10 09:52:35,187 INFO]{"data":null,"success":false,"error":"oauth_problem=consumer_key_unknown","errorCode":4010}
+[2016-03-10 09:52:35,187 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.278s...
+[2016-03-10 09:53:19,956 INFO]Structure OAuth Authorization: 
+[2016-03-10 09:53:19,957 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D36751400%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457574799%26oauth_version%3D1.0
+[2016-03-10 09:53:20,060 INFO]OAuth signature: 3SX2FxHd+nFzalP/PwhTpAvo9Js=
+[2016-03-10 09:53:20,061 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574799",oauth_nonce="36751400",oauth_version="1.0",oauth_signature="3SX2FxHd%2BnFzalP%2FPwhTpAvo9Js%3D"
+[2016-03-10 09:53:20,067 INFO]Request: 
+[2016-03-10 09:53:20,067 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 09:53:20,093 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 09:53:20,101 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574799",oauth_nonce="36751400",oauth_version="1.0",oauth_signature="3SX2FxHd%2BnFzalP%2FPwhTpAvo9Js%3D"
+[2016-03-10 09:53:20,102 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 09:53:20,311 WARN]Cookie rejected [cid="wKgWWlbg05Ck71OTAzGXAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:53:20 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:53:20,311 WARN]Cookie rejected [cid="wKgBMVbg046//zRNBIEsAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:53:18 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:53:20,314 INFO]completed successful!
+[2016-03-10 09:53:20,314 INFO]Response:
+[2016-03-10 09:53:20,314 INFO]HTTP/1.1 200 OK
+[2016-03-10 09:53:20,314 INFO]Server: nginx/1.6.0
+[2016-03-10 09:53:20,315 INFO]Date: Thu, 10 Mar 2016 01:53:18 GMT
+[2016-03-10 09:53:20,315 INFO]Content-Type: application/json
+[2016-03-10 09:53:20,315 INFO]Content-Length: 88
+[2016-03-10 09:53:20,315 INFO]Connection: keep-alive
+[2016-03-10 09:53:20,315 INFO]Set-Cookie: cid=wKgWWlbg05Ck71OTAzGXAg==; expires=Sun, 08-Mar-26 01:53:20 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:53:20,315 INFO]Set-Cookie: cid=wKgBMVbg046//zRNBIEsAg==; expires=Sun, 08-Mar-26 01:53:18 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:53:20,316 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.249s...
+[2016-03-10 09:53:20,316 INFO]{"data":null,"success":false,"error":"oauth_problem=signature_invalid","errorCode":4019}
+[2016-03-10 09:53:20,316 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.249s...
+[2016-03-10 09:54:45,873 INFO]Structure OAuth Authorization: 
+[2016-03-10 09:54:45,884 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D2595263501%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457574845%26oauth_version%3D1.0
+[2016-03-10 09:54:46,246 INFO]OAuth signature: wrqa2z1+1lhhsll4x8wEZ5r9D4Q=
+[2016-03-10 09:54:46,247 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574845",oauth_nonce="2595263501",oauth_version="1.0",oauth_signature="wrqa2z1%2B1lhhsll4x8wEZ5r9D4Q%3D"
+[2016-03-10 09:54:54,773 INFO]Request: 
+[2016-03-10 09:54:54,774 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 09:54:54,774 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 09:54:54,796 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574845",oauth_nonce="2595263501",oauth_version="1.0",oauth_signature="wrqa2z1%2B1lhhsll4x8wEZ5r9D4Q%3D"
+[2016-03-10 09:54:54,796 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 09:54:55,045 WARN]Cookie rejected [cid="wKgWWlbg0++k71OTAzGdAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:54:55 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:54:55,045 WARN]Cookie rejected [cid="wKgBMVbg0+3AADRMBFZ2Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:54:53 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:54:55,048 INFO]completed successful!
+[2016-03-10 09:54:55,048 INFO]Response:
+[2016-03-10 09:54:55,049 INFO]HTTP/1.1 200 OK
+[2016-03-10 09:54:55,049 INFO]Server: nginx/1.6.0
+[2016-03-10 09:54:55,049 INFO]Date: Thu, 10 Mar 2016 01:54:53 GMT
+[2016-03-10 09:54:55,049 INFO]Content-Type: application/json
+[2016-03-10 09:54:55,049 INFO]Content-Length: 88
+[2016-03-10 09:54:55,049 INFO]Connection: keep-alive
+[2016-03-10 09:54:55,049 INFO]Set-Cookie: cid=wKgWWlbg0++k71OTAzGdAg==; expires=Sun, 08-Mar-26 01:54:55 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:54:55,049 INFO]Set-Cookie: cid=wKgBMVbg0+3AADRMBFZ2Ag==; expires=Sun, 08-Mar-26 01:54:53 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:54:55,050 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.277s...
+[2016-03-10 09:54:55,050 INFO]{"data":null,"success":false,"error":"oauth_problem=signature_invalid","errorCode":4019}
+[2016-03-10 09:54:55,050 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.277s...
+[2016-03-10 09:55:48,609 INFO]Structure OAuth Authorization: 
+[2016-03-10 09:55:48,611 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D-205718024%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457574948%26oauth_version%3D1.0
+[2016-03-10 09:55:48,713 INFO]OAuth signature: 3NkmygTM4RlrKSuICvSgLx/igI0=
+[2016-03-10 09:55:48,713 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574948",oauth_nonce="-205718024",oauth_version="1.0",oauth_signature="3NkmygTM4RlrKSuICvSgLx%2FigI0%3D"
+[2016-03-10 09:55:48,720 INFO]Request: 
+[2016-03-10 09:55:48,720 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 09:55:48,745 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 09:55:48,753 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574948",oauth_nonce="-205718024",oauth_version="1.0",oauth_signature="3NkmygTM4RlrKSuICvSgLx%2FigI0%3D"
+[2016-03-10 09:55:48,753 INFO]Content-Type: application/json
+[2016-03-10 09:55:48,961 WARN]Cookie rejected [cid="wKgWWlbg1CWk71OTAzGgAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:55:49 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:55:48,961 WARN]Cookie rejected [cid="wKgBMVbg1CPAADRMBFaIAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 09:55:47 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 09:55:48,965 INFO]completed successful!
+[2016-03-10 09:55:48,965 INFO]Response:
+[2016-03-10 09:55:48,965 INFO]HTTP/1.1 200 OK
+[2016-03-10 09:55:48,965 INFO]Server: nginx/1.6.0
+[2016-03-10 09:55:48,965 INFO]Date: Thu, 10 Mar 2016 01:55:47 GMT
+[2016-03-10 09:55:48,965 INFO]Content-Type: application/json
+[2016-03-10 09:55:48,965 INFO]Content-Length: 88
+[2016-03-10 09:55:48,965 INFO]Connection: keep-alive
+[2016-03-10 09:55:48,965 INFO]Set-Cookie: cid=wKgWWlbg1CWk71OTAzGgAg==; expires=Sun, 08-Mar-26 01:55:49 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:55:48,965 INFO]Set-Cookie: cid=wKgBMVbg1CPAADRMBFaIAg==; expires=Sun, 08-Mar-26 01:55:47 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 09:55:48,966 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.246s...
+[2016-03-10 09:55:48,966 INFO]{"data":null,"success":false,"error":"oauth_problem=signature_invalid","errorCode":4019}
+[2016-03-10 09:55:48,966 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.246s...
+[2016-03-10 09:59:44,988 INFO]Structure OAuth Authorization: 
+[2016-03-10 09:59:45,000 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D1113425517%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457574956%26oauth_version%3D1.0
+[2016-03-10 09:59:45,363 INFO]OAuth signature: rcxNUm3sBhZqbWuABSoQjiozfG8=
+[2016-03-10 09:59:45,365 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574956",oauth_nonce="1113425517",oauth_version="1.0",oauth_signature="rcxNUm3sBhZqbWuABSoQjiozfG8%3D"
+[2016-03-10 10:00:29,000 INFO]Request: 
+[2016-03-10 10:00:29,002 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 10:00:36,081 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:00:53,736 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457574956",oauth_nonce="1113425517",oauth_version="1.0",oauth_signature="rcxNUm3sBhZqbWuABSoQjiozfG8%3D"
+[2016-03-10 10:00:53,737 INFO]Content-Type: application/json
+[2016-03-10 10:00:58,401 WARN]Cookie rejected [cid="wKgWWlbg1Vqk71OTAzGzAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:00:58 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:00:58,402 WARN]Cookie rejected [cid="wKgBMVbg1VjAADRMBFanAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:00:56 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:00:58,405 INFO]completed successful!
+[2016-03-10 10:00:58,405 INFO]Response:
+[2016-03-10 10:00:58,405 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:00:58,406 INFO]Server: nginx/1.6.0
+[2016-03-10 10:00:58,406 INFO]Date: Thu, 10 Mar 2016 02:00:56 GMT
+[2016-03-10 10:00:58,406 INFO]Content-Type: application/json
+[2016-03-10 10:00:58,406 INFO]Content-Length: 88
+[2016-03-10 10:00:58,406 INFO]Connection: keep-alive
+[2016-03-10 10:00:58,407 INFO]Set-Cookie: cid=wKgWWlbg1Vqk71OTAzGzAg==; expires=Sun, 08-Mar-26 02:00:58 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:00:58,407 INFO]Set-Cookie: cid=wKgBMVbg1VjAADRMBFanAg==; expires=Sun, 08-Mar-26 02:00:56 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:00:58,409 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 29.409s...
+[2016-03-10 10:00:58,409 INFO]{"data":null,"success":false,"error":"oauth_problem=signature_invalid","errorCode":4019}
+[2016-03-10 10:01:04,653 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 35.653s...
+[2016-03-10 10:01:34,794 INFO]Request: 
+[2016-03-10 10:01:34,796 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-10 10:01:34,798 INFO]Post Params: appId=10103
+[2016-03-10 10:01:35,081 WARN]Cookie rejected [cid="wKgWkFbg1X4vb2DxA0VaAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:01:34 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 10:01:35,085 INFO]completed successful!
+[2016-03-10 10:01:35,085 INFO]Response:
+[2016-03-10 10:01:35,085 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:01:35,085 INFO]Server: nginx/1.4.4
+[2016-03-10 10:01:35,085 INFO]Date: Thu, 10 Mar 2016 02:01:34 GMT
+[2016-03-10 10:01:35,085 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-10 10:01:35,085 INFO]Content-Length: 331
+[2016-03-10 10:01:35,085 INFO]Connection: keep-alive
+[2016-03-10 10:01:35,085 INFO]Set-Cookie: PLAY_FLASH=;Expires=Thu, 10-Mar-2016 02:01:34 GMT;Path=/
+[2016-03-10 10:01:35,086 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Thu, 10-Mar-2016 02:01:34 GMT;Path=/
+[2016-03-10 10:01:35,086 INFO]Set-Cookie: PLAY_SESSION=;Expires=Thu, 10-Mar-2016 02:01:34 GMT;Path=/
+[2016-03-10 10:01:35,086 INFO]Cache-Control: no-cache
+[2016-03-10 10:01:35,086 INFO]Set-Cookie: cid=wKgWkFbg1X4vb2DxA0VaAg==; expires=Sun, 08-Mar-26 02:01:34 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:01:35,087 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.293s...
+[2016-03-10 10:01:35,087 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-10 10:03:19,357 INFO]Structure OAuth Authorization: 
+[2016-03-10 10:03:19,359 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D787442041%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457575399%26oauth_version%3D1.0
+[2016-03-10 10:03:19,461 INFO]OAuth signature: NuyvUjzWR3MUkxaEWww1Dvj2VUM=
+[2016-03-10 10:03:19,461 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457575399",oauth_nonce="787442041",oauth_version="1.0",oauth_signature="NuyvUjzWR3MUkxaEWww1Dvj2VUM%3D"
+[2016-03-10 10:03:19,468 INFO]Request: 
+[2016-03-10 10:03:19,468 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 10:03:19,492 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:03:19,501 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457575399",oauth_nonce="787442041",oauth_version="1.0",oauth_signature="NuyvUjzWR3MUkxaEWww1Dvj2VUM%3D"
+[2016-03-10 10:03:19,501 INFO]Content-Type: application/json
+[2016-03-10 10:03:19,843 WARN]Cookie rejected [cid="wKgWWlbg1eek71OTAzG/Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:03:19 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:03:19,845 WARN]Cookie rejected [cid="wKgBMVbg1ebAADRMBFatAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:03:18 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:03:19,852 INFO]completed successful!
+[2016-03-10 10:03:19,852 INFO]Response:
+[2016-03-10 10:03:19,852 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:03:19,853 INFO]Server: nginx/1.6.0
+[2016-03-10 10:03:19,853 INFO]Date: Thu, 10 Mar 2016 02:03:18 GMT
+[2016-03-10 10:03:19,853 INFO]Content-Type: application/octet-stream
+[2016-03-10 10:03:19,853 INFO]Content-Length: 73
+[2016-03-10 10:03:19,853 INFO]Connection: keep-alive
+[2016-03-10 10:03:19,853 INFO]Set-Cookie: cid=wKgWWlbg1eek71OTAzG/Ag==; expires=Sun, 08-Mar-26 02:03:19 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:03:19,854 INFO]Set-Cookie: cid=wKgBMVbg1ebAADRMBFatAg==; expires=Sun, 08-Mar-26 02:03:18 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:03:19,857 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.389s...
+[2016-03-10 10:03:19,857 INFO]{"pubId":"XT-10000","sourceMsgId":"5acaf3e9-9cdb-4e97-88e8-35a0d1a49d66"}
+[2016-03-10 10:03:19,858 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.389s...
+[2016-03-10 10:04:21,257 INFO]Structure OAuth Authorization: 
+[2016-03-10 10:04:21,259 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D681788487%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457575461%26oauth_version%3D1.0
+[2016-03-10 10:04:21,362 INFO]OAuth signature: s3gxFIgQc2ojFSxeSjy+QqdI4/I=
+[2016-03-10 10:04:21,362 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457575461",oauth_nonce="681788487",oauth_version="1.0",oauth_signature="s3gxFIgQc2ojFSxeSjy%2BQqdI4%2FI%3D"
+[2016-03-10 10:04:21,369 INFO]Request: 
+[2016-03-10 10:04:21,369 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 10:04:21,394 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"1000","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:04:21,402 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457575461",oauth_nonce="681788487",oauth_version="1.0",oauth_signature="s3gxFIgQc2ojFSxeSjy%2BQqdI4%2FI%3D"
+[2016-03-10 10:04:21,402 INFO]Content-Type: application/json
+[2016-03-10 10:04:21,703 WARN]Cookie rejected [cid="wKgWWlbg1iWk71OTAzHMAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:04:21 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:04:21,705 WARN]Cookie rejected [cid="wKgBMVbg1iTAADRMBFaxAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:04:20 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:04:21,709 INFO]completed successful!
+[2016-03-10 10:04:21,709 INFO]Response:
+[2016-03-10 10:04:21,709 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:04:21,709 INFO]Server: nginx/1.6.0
+[2016-03-10 10:04:21,709 INFO]Date: Thu, 10 Mar 2016 02:04:20 GMT
+[2016-03-10 10:04:21,709 INFO]Content-Type: application/octet-stream
+[2016-03-10 10:04:21,709 INFO]Content-Length: 73
+[2016-03-10 10:04:21,709 INFO]Connection: keep-alive
+[2016-03-10 10:04:21,710 INFO]Set-Cookie: cid=wKgWWlbg1iWk71OTAzHMAg==; expires=Sun, 08-Mar-26 02:04:21 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:04:21,710 INFO]Set-Cookie: cid=wKgBMVbg1iTAADRMBFaxAg==; expires=Sun, 08-Mar-26 02:04:20 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:04:21,711 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.342s...
+[2016-03-10 10:04:21,711 INFO]{"pubId":"XT-10000","sourceMsgId":"0049c3e4-bcf2-4670-b732-5f08334e4753"}
+[2016-03-10 10:05:40,685 INFO]Structure OAuth Authorization: 
+[2016-03-10 10:05:40,686 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D2679264430%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457575540%26oauth_version%3D1.0
+[2016-03-10 10:05:40,790 INFO]OAuth signature: Z2klU4G4/StKVQE+y7VHhvYGSH4=
+[2016-03-10 10:05:40,790 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457575540",oauth_nonce="2679264430",oauth_version="1.0",oauth_signature="Z2klU4G4%2FStKVQE%2By7VHhvYGSH4%3D"
+[2016-03-10 10:05:40,796 INFO]Request: 
+[2016-03-10 10:05:40,796 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 10:05:40,822 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:05:40,830 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457575540",oauth_nonce="2679264430",oauth_version="1.0",oauth_signature="Z2klU4G4%2FStKVQE%2By7VHhvYGSH4%3D"
+[2016-03-10 10:05:40,830 INFO]Content-Type: application/json
+[2016-03-10 10:05:41,150 WARN]Cookie rejected [cid="wKgWWlbg1nWk71OTAzHVAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:05:41 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:05:41,150 WARN]Cookie rejected [cid="wKgBMVbg1nPAADRMBFbKAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:05:39 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:05:41,157 INFO]completed successful!
+[2016-03-10 10:05:41,157 INFO]Response:
+[2016-03-10 10:05:41,157 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:05:41,157 INFO]Server: nginx/1.6.0
+[2016-03-10 10:05:41,157 INFO]Date: Thu, 10 Mar 2016 02:05:39 GMT
+[2016-03-10 10:05:41,158 INFO]Content-Type: application/octet-stream
+[2016-03-10 10:05:41,158 INFO]Content-Length: 73
+[2016-03-10 10:05:41,158 INFO]Connection: keep-alive
+[2016-03-10 10:05:41,158 INFO]Set-Cookie: cid=wKgWWlbg1nWk71OTAzHVAg==; expires=Sun, 08-Mar-26 02:05:41 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:05:41,158 INFO]Set-Cookie: cid=wKgBMVbg1nPAADRMBFbKAg==; expires=Sun, 08-Mar-26 02:05:39 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:05:41,160 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.364s...
+[2016-03-10 10:05:41,161 INFO]{"pubId":"XT-10000","sourceMsgId":"017a6408-7752-421c-9688-3ecad83db996"}
+[2016-03-10 10:24:42,528 INFO]Structure OAuth Authorization: 
+[2016-03-10 10:24:42,529 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D285834374%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457576682%26oauth_version%3D1.0
+[2016-03-10 10:24:42,630 INFO]OAuth signature: ZljthWLl+IXzO4FTsxbMlIjH8gg=
+[2016-03-10 10:24:42,631 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457576682",oauth_nonce="285834374",oauth_version="1.0",oauth_signature="ZljthWLl%2BIXzO4FTsxbMlIjH8gg%3D"
+[2016-03-10 10:24:42,640 INFO]Request: 
+[2016-03-10 10:24:42,640 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 10:24:42,666 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:24:42,674 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457576682",oauth_nonce="285834374",oauth_version="1.0",oauth_signature="ZljthWLl%2BIXzO4FTsxbMlIjH8gg%3D"
+[2016-03-10 10:24:42,674 INFO]Content-Type: application/json
+[2016-03-10 10:24:42,975 WARN]Cookie rejected [cid="wKgWWlbg2uuk71OTAzLAAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:24:43 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:24:42,976 WARN]Cookie rejected [cid="wKgBMVbg2um//DROBIKMAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:24:41 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:24:42,979 INFO]completed successful!
+[2016-03-10 10:24:42,979 INFO]Response:
+[2016-03-10 10:24:42,979 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:24:42,979 INFO]Server: nginx/1.6.0
+[2016-03-10 10:24:42,979 INFO]Date: Thu, 10 Mar 2016 02:24:41 GMT
+[2016-03-10 10:24:42,979 INFO]Content-Type: application/octet-stream
+[2016-03-10 10:24:42,979 INFO]Content-Length: 73
+[2016-03-10 10:24:42,979 INFO]Connection: keep-alive
+[2016-03-10 10:24:42,979 INFO]Set-Cookie: cid=wKgWWlbg2uuk71OTAzLAAg==; expires=Sun, 08-Mar-26 02:24:43 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:24:42,979 INFO]Set-Cookie: cid=wKgBMVbg2um//DROBIKMAg==; expires=Sun, 08-Mar-26 02:24:41 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:24:42,980 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.34s...
+[2016-03-10 10:24:42,981 INFO]{"pubId":"XT-10000","sourceMsgId":"17e925b3-951d-4245-a308-da68e056b56c"}
+[2016-03-10 10:35:16,767 INFO]Structure OAuth Authorization: 
+[2016-03-10 10:35:16,769 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D1152454094%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457577316%26oauth_version%3D1.0
+[2016-03-10 10:35:16,870 INFO]OAuth signature: DBMA+lXSwZ/tgLhB3wrfOh6svZE=
+[2016-03-10 10:35:16,870 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457577316",oauth_nonce="1152454094",oauth_version="1.0",oauth_signature="DBMA%2BlXSwZ%2FtgLhB3wrfOh6svZE%3D"
+[2016-03-10 10:35:16,877 INFO]Request: 
+[2016-03-10 10:35:16,877 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 10:35:16,902 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:35:16,911 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457577316",oauth_nonce="1152454094",oauth_version="1.0",oauth_signature="DBMA%2BlXSwZ%2FtgLhB3wrfOh6svZE%3D"
+[2016-03-10 10:35:16,911 INFO]Content-Type: application/json
+[2016-03-10 10:35:17,261 WARN]Cookie rejected [cid="wKgWWlbg3WWk71OTAzPAAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:35:17 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:35:17,262 WARN]Cookie rejected [cid="wKgBMVbg3WPAADRMBFkCAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:35:15 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:35:17,267 INFO]completed successful!
+[2016-03-10 10:35:17,267 INFO]Response:
+[2016-03-10 10:35:17,267 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:35:17,267 INFO]Server: nginx/1.6.0
+[2016-03-10 10:35:17,267 INFO]Date: Thu, 10 Mar 2016 02:35:15 GMT
+[2016-03-10 10:35:17,267 INFO]Content-Type: application/octet-stream
+[2016-03-10 10:35:17,267 INFO]Content-Length: 73
+[2016-03-10 10:35:17,268 INFO]Connection: keep-alive
+[2016-03-10 10:35:17,268 INFO]Set-Cookie: cid=wKgWWlbg3WWk71OTAzPAAg==; expires=Sun, 08-Mar-26 02:35:17 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:35:17,268 INFO]Set-Cookie: cid=wKgBMVbg3WPAADRMBFkCAg==; expires=Sun, 08-Mar-26 02:35:15 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:35:17,269 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.392s...
+[2016-03-10 10:35:17,269 INFO]{"pubId":"XT-10000","sourceMsgId":"7e9cc98b-6315-4234-8ce9-8558e380f7b8"}
+[2016-03-10 10:36:43,574 INFO]Structure OAuth Authorization: 
+[2016-03-10 10:36:43,576 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D-681936829%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457577402%26oauth_version%3D1.0
+[2016-03-10 10:36:43,682 INFO]OAuth signature: k9AnuxsJXX6P4u7PQ/VXrBJ3kI8=
+[2016-03-10 10:36:43,682 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457577402",oauth_nonce="-681936829",oauth_version="1.0",oauth_signature="k9AnuxsJXX6P4u7PQ%2FVXrBJ3kI8%3D"
+[2016-03-10 10:36:43,705 INFO]Request: 
+[2016-03-10 10:36:43,705 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 10:36:43,734 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:38:14,545 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457577402",oauth_nonce="-681936829",oauth_version="1.0",oauth_signature="k9AnuxsJXX6P4u7PQ%2FVXrBJ3kI8%3D"
+[2016-03-10 10:38:14,546 INFO]Content-Type: application/json
+[2016-03-10 10:38:30,700 WARN]Cookie rejected [cid="wKgWWlbg3iak71OTAzP1Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:38:30 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:38:30,701 WARN]Cookie rejected [cid="wKgBMVbg3iTAADRMBFlqAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 10:38:28 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 10:38:30,705 INFO]completed successful!
+[2016-03-10 10:38:30,705 INFO]Response:
+[2016-03-10 10:38:30,706 INFO]HTTP/1.1 200 OK
+[2016-03-10 10:38:30,706 INFO]Server: nginx/1.6.0
+[2016-03-10 10:38:30,706 INFO]Date: Thu, 10 Mar 2016 02:38:28 GMT
+[2016-03-10 10:38:30,706 INFO]Content-Type: application/octet-stream
+[2016-03-10 10:38:30,707 INFO]Content-Length: 73
+[2016-03-10 10:38:30,707 INFO]Connection: keep-alive
+[2016-03-10 10:38:30,707 INFO]Set-Cookie: cid=wKgWWlbg3iak71OTAzP1Ag==; expires=Sun, 08-Mar-26 02:38:30 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:38:30,707 INFO]Set-Cookie: cid=wKgBMVbg3iTAADRMBFlqAg==; expires=Sun, 08-Mar-26 02:38:28 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 10:38:30,710 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 107.004s...
+[2016-03-10 10:38:30,710 INFO]{"pubId":"XT-10000","sourceMsgId":"7426e346-d3b7-4858-9aa3-05c7e571fb8b"}
+[2016-03-10 10:40:38,085 INFO]Request: 
+[2016-03-10 10:40:38,087 INFO]Post http://localhost:7000/pubacc/api/pubsend
+[2016-03-10 10:40:38,113 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 10:41:00,105 INFO]completed successful!
+[2016-03-10 11:30:24,295 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:30:24,297 INFO]OAuth base string: POST&http%3A%2F%2Flocalhost%3A8000%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D1339178571%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457580624%26oauth_version%3D1.0
+[2016-03-10 11:30:24,403 INFO]OAuth signature: EM/Ev5i74Kc/epnIAeCLOCn8/do=
+[2016-03-10 11:30:24,403 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580624",oauth_nonce="1339178571",oauth_version="1.0",oauth_signature="EM%2FEv5i74Kc%2FepnIAeCLOCn8%2Fdo%3D"
+[2016-03-10 11:30:24,410 INFO]Request: 
+[2016-03-10 11:30:24,410 INFO]Post http://localhost:8000/openapi/third/v1/pubacc/pubsend
+[2016-03-10 11:30:24,435 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:30:24,482 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580624",oauth_nonce="1339178571",oauth_version="1.0",oauth_signature="EM%2FEv5i74Kc%2FepnIAeCLOCn8%2Fdo%3D"
+[2016-03-10 11:30:24,482 INFO]Content-Type: application/json
+[2016-03-10 11:30:43,640 INFO]completed successful!
+[2016-03-10 11:33:54,720 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:33:54,722 INFO]OAuth base string: POST&http%3A%2F%2Flocalhost%3A8000%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D1339506048%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457580834%26oauth_version%3D1.0
+[2016-03-10 11:33:54,828 INFO]OAuth signature: NQseN9wm5Vjk+Tw32SC/O/J6qa8=
+[2016-03-10 11:33:54,828 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580834",oauth_nonce="1339506048",oauth_version="1.0",oauth_signature="NQseN9wm5Vjk%2BTw32SC%2FO%2FJ6qa8%3D"
+[2016-03-10 11:33:54,835 INFO]Request: 
+[2016-03-10 11:33:54,835 INFO]Post http://localhost:8000/openapi/third/v1/pubacc/pubsend
+[2016-03-10 11:33:54,860 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:33:54,869 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580834",oauth_nonce="1339506048",oauth_version="1.0",oauth_signature="NQseN9wm5Vjk%2BTw32SC%2FO%2FJ6qa8%3D"
+[2016-03-10 11:33:54,869 INFO]Content-Type: application/json
+[2016-03-10 11:34:19,113 INFO]excute failed:
+org.apache.http.ConnectionClosedException: Connection closed
+	at org.apache.http.nio.protocol.HttpAsyncRequestExecutor.endOfInput(HttpAsyncRequestExecutor.java:257)
+	at org.apache.http.impl.nio.client.LoggingAsyncRequestExecutor.endOfInput(LoggingAsyncRequestExecutor.java:128)
+	at org.apache.http.impl.nio.DefaultNHttpClientConnection.consumeInput(DefaultNHttpClientConnection.java:260)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:73)
+	at org.apache.http.impl.nio.client.InternalIODispatch.onInputReady(InternalIODispatch.java:37)
+	at org.apache.http.impl.nio.reactor.AbstractIODispatch.inputReady(AbstractIODispatch.java:113)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.readable(BaseIOReactor.java:159)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvent(AbstractIOReactor.java:338)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.processEvents(AbstractIOReactor.java:316)
+	at org.apache.http.impl.nio.reactor.AbstractIOReactor.execute(AbstractIOReactor.java:277)
+	at org.apache.http.impl.nio.reactor.BaseIOReactor.execute(BaseIOReactor.java:105)
+	at org.apache.http.impl.nio.reactor.AbstractMultiworkerIOReactor$Worker.run(AbstractMultiworkerIOReactor.java:584)
+	at java.lang.Thread.run(Thread.java:722)
+[2016-03-10 11:35:56,968 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:35:56,970 INFO]OAuth base string: POST&http%3A%2F%2Flocalhost%3A8000%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D1517994445%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457580956%26oauth_version%3D1.0
+[2016-03-10 11:35:57,077 INFO]OAuth signature: 7nrhui8hdvd1el64mS+OQ06yTHQ=
+[2016-03-10 11:35:57,077 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580956",oauth_nonce="1517994445",oauth_version="1.0",oauth_signature="7nrhui8hdvd1el64mS%2BOQ06yTHQ%3D"
+[2016-03-10 11:35:57,084 INFO]Request: 
+[2016-03-10 11:35:57,084 INFO]Post http://localhost:8000/openapi/third/v1/pubacc/pubsend
+[2016-03-10 11:35:57,110 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:35:57,119 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580956",oauth_nonce="1517994445",oauth_version="1.0",oauth_signature="7nrhui8hdvd1el64mS%2BOQ06yTHQ%3D"
+[2016-03-10 11:35:57,119 INFO]Content-Type: application/json
+[2016-03-10 11:36:07,635 INFO]completed successful!
+[2016-03-10 11:36:18,637 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:36:18,639 INFO]OAuth base string: POST&http%3A%2F%2Flocalhost%3A8000%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D2043860390%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457580978%26oauth_version%3D1.0
+[2016-03-10 11:36:18,746 INFO]OAuth signature: zMRzaYwPORcVnG3isw87Q3wiNSk=
+[2016-03-10 11:36:18,746 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580978",oauth_nonce="2043860390",oauth_version="1.0",oauth_signature="zMRzaYwPORcVnG3isw87Q3wiNSk%3D"
+[2016-03-10 11:36:18,753 INFO]Request: 
+[2016-03-10 11:36:18,753 INFO]Post http://localhost:8000/openapi/third/v1/pubacc/pubsend
+[2016-03-10 11:36:18,778 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:36:18,787 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457580978",oauth_nonce="2043860390",oauth_version="1.0",oauth_signature="zMRzaYwPORcVnG3isw87Q3wiNSk%3D"
+[2016-03-10 11:36:18,787 INFO]Content-Type: application/json
+[2016-03-10 11:36:33,818 INFO]completed successful!
+[2016-03-10 11:40:12,424 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:40:12,426 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D3092836941%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457581212%26oauth_version%3D1.0
+[2016-03-10 11:40:12,532 INFO]OAuth signature: hl27raHsaWnpalC8bc5qCVOktso=
+[2016-03-10 11:40:12,533 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457581212",oauth_nonce="3092836941",oauth_version="1.0",oauth_signature="hl27raHsaWnpalC8bc5qCVOktso%3D"
+[2016-03-10 11:40:12,539 INFO]Request: 
+[2016-03-10 11:40:12,540 INFO]Post http://192.168.22.144/openapi/third/v1/pubacc/pubsend
+[2016-03-10 11:40:12,566 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:40:12,575 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457581212",oauth_nonce="3092836941",oauth_version="1.0",oauth_signature="hl27raHsaWnpalC8bc5qCVOktso%3D"
+[2016-03-10 11:40:12,575 INFO]Content-Type: application/json
+[2016-03-10 11:40:12,883 WARN]Cookie rejected [cid="wKgWXFbg7J0Cj3WnAxw/Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:40:13 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:40:12,883 WARN]Cookie rejected [cid="wKgWkFbg7Jwvb2DxA1woAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:40:12 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:40:12,886 INFO]completed successful!
+[2016-03-10 11:40:12,886 INFO]Response:
+[2016-03-10 11:40:12,887 INFO]HTTP/1.1 200 OK
+[2016-03-10 11:40:12,887 INFO]Server: nginx/1.4.4
+[2016-03-10 11:40:12,887 INFO]Date: Thu, 10 Mar 2016 03:40:12 GMT
+[2016-03-10 11:40:12,887 INFO]Content-Type: application/octet-stream
+[2016-03-10 11:40:12,887 INFO]Content-Length: 73
+[2016-03-10 11:40:12,887 INFO]Connection: keep-alive
+[2016-03-10 11:40:12,887 INFO]Set-Cookie: cid=wKgWXFbg7J0Cj3WnAxw/Ag==; expires=Sun, 08-Mar-26 03:40:13 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:40:12,887 INFO]Set-Cookie: cid=wKgWkFbg7Jwvb2DxA1woAg==; expires=Sun, 08-Mar-26 03:40:12 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:40:12,888 INFO]url http://192.168.22.144/openapi/third/v1/pubacc/pubsend runs 0.349s...
+[2016-03-10 11:40:12,888 INFO]{"pubId":"XT-10000","sourceMsgId":"411c2c8d-91de-467a-b67b-6ec2a32025f2"}
+[2016-03-10 11:52:50,269 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:52:50,272 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3D12udaAEghEJGEHkw%26oauth_nonce%3D-151711418%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457581970%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-10 11:52:50,385 INFO]OAuth signature: 2WTf9Cf0RIjMeF5wx0cGJXl2LDY=
+[2016-03-10 11:52:50,385 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457581970",oauth_nonce="-151711418",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="2WTf9Cf0RIjMeF5wx0cGJXl2LDY%3D"
+[2016-03-10 11:52:50,392 INFO]Request: 
+[2016-03-10 11:52:50,392 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-10 11:52:50,394 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-10 11:52:50,404 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457581970",oauth_nonce="-151711418",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="2WTf9Cf0RIjMeF5wx0cGJXl2LDY%3D"
+[2016-03-10 11:52:50,404 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 11:52:50,634 WARN]Cookie rejected [cid="wKgWXFbg75ICj3WnAx9WAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:52:50 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:52:50,634 WARN]Cookie rejected [cid="wKgWkFbg75Ivb2DxA14zAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:52:50 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:52:50,639 INFO]completed successful!
+[2016-03-10 11:52:50,639 INFO]Response:
+[2016-03-10 11:52:50,639 INFO]HTTP/1.1 200 OK
+[2016-03-10 11:52:50,639 INFO]Server: nginx/1.4.4
+[2016-03-10 11:52:50,639 INFO]Date: Thu, 10 Mar 2016 03:52:50 GMT
+[2016-03-10 11:52:50,639 INFO]Content-Type: application/json
+[2016-03-10 11:52:50,639 INFO]Content-Length: 91
+[2016-03-10 11:52:50,640 INFO]Connection: keep-alive
+[2016-03-10 11:52:50,640 INFO]Set-Cookie: cid=wKgWXFbg75ICj3WnAx9WAg==; expires=Sun, 08-Mar-26 03:52:50 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:52:50,640 INFO]Set-Cookie: cid=wKgWkFbg75Ivb2DxA14zAg==; expires=Sun, 08-Mar-26 03:52:50 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:52:50,641 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.249s...
+[2016-03-10 11:52:50,641 INFO]{"data":null,"error":"oauth_problem=consumer_key_unknown","success":false,"errorCode":4010}
+[2016-03-10 11:52:50,684 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:52:50,684 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D-151711418%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457581970%26oauth_version%3D1.0
+[2016-03-10 11:52:50,684 INFO]OAuth signature: LwPOuhvBzNBteoiFdyUbJ7JCppM=
+[2016-03-10 11:52:50,684 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457581970",oauth_nonce="-151711418",oauth_version="1.0",oauth_signature="LwPOuhvBzNBteoiFdyUbJ7JCppM%3D"
+[2016-03-10 11:52:50,685 INFO]Request: 
+[2016-03-10 11:52:50,685 INFO]Post http://192.168.22.144/openapi/third/v1/pubacc/pubsend
+[2016-03-10 11:52:50,718 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:52:50,719 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457581970",oauth_nonce="-151711418",oauth_version="1.0",oauth_signature="LwPOuhvBzNBteoiFdyUbJ7JCppM%3D"
+[2016-03-10 11:52:50,719 INFO]Content-Type: application/json
+[2016-03-10 11:52:50,850 WARN]Cookie rejected [cid="wKgWXFbg75MCj3WnAx9XAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:52:51 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:52:50,850 WARN]Cookie rejected [cid="wKgWkFbg75Ivb2DxA141Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:52:50 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:52:50,850 INFO]completed successful!
+[2016-03-10 11:52:50,850 INFO]Response:
+[2016-03-10 11:52:50,851 INFO]HTTP/1.1 200 OK
+[2016-03-10 11:52:50,851 INFO]Server: nginx/1.4.4
+[2016-03-10 11:52:50,851 INFO]Date: Thu, 10 Mar 2016 03:52:50 GMT
+[2016-03-10 11:52:50,851 INFO]Content-Type: application/octet-stream
+[2016-03-10 11:52:50,851 INFO]Content-Length: 73
+[2016-03-10 11:52:50,851 INFO]Connection: keep-alive
+[2016-03-10 11:52:50,851 INFO]Set-Cookie: cid=wKgWXFbg75MCj3WnAx9XAg==; expires=Sun, 08-Mar-26 03:52:51 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:52:50,851 INFO]Set-Cookie: cid=wKgWkFbg75Ivb2DxA141Ag==; expires=Sun, 08-Mar-26 03:52:50 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:52:50,851 INFO]url http://192.168.22.144/openapi/third/v1/pubacc/pubsend runs 0.166s...
+[2016-03-10 11:52:50,852 INFO]{"pubId":"XT-10000","sourceMsgId":"3f6665cd-bf73-412b-8f52-f15fddbcc6f0"}
+[2016-03-10 11:55:37,531 INFO]Request: 
+[2016-03-10 11:55:37,534 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-10 11:55:37,536 INFO]Post Params: appId=10103
+[2016-03-10 11:55:37,824 WARN]Cookie rejected [cid="wKgWkFbg8DkvamDwA1nsAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:55:37 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:55:37,828 INFO]completed successful!
+[2016-03-10 11:55:37,828 INFO]Response:
+[2016-03-10 11:55:37,828 INFO]HTTP/1.1 200 OK
+[2016-03-10 11:55:37,828 INFO]Server: nginx/1.4.4
+[2016-03-10 11:55:37,828 INFO]Date: Thu, 10 Mar 2016 03:55:37 GMT
+[2016-03-10 11:55:37,828 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-10 11:55:37,828 INFO]Content-Length: 331
+[2016-03-10 11:55:37,828 INFO]Connection: keep-alive
+[2016-03-10 11:55:37,828 INFO]Set-Cookie: PLAY_FLASH=;Expires=Thu, 10-Mar-2016 03:55:37 GMT;Path=/
+[2016-03-10 11:55:37,828 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Thu, 10-Mar-2016 03:55:37 GMT;Path=/
+[2016-03-10 11:55:37,828 INFO]Set-Cookie: PLAY_SESSION=;Expires=Thu, 10-Mar-2016 03:55:37 GMT;Path=/
+[2016-03-10 11:55:37,828 INFO]Cache-Control: no-cache
+[2016-03-10 11:55:37,829 INFO]Set-Cookie: cid=wKgWkFbg8DkvamDwA1nsAg==; expires=Sun, 08-Mar-26 03:55:37 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:55:37,830 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.3s...
+[2016-03-10 11:55:37,830 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-10 11:55:37,869 INFO]Request: 
+[2016-03-10 11:55:37,869 INFO]Post http://192.168.22.144/pubacc/api/pubsend
+[2016-03-10 11:55:37,896 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:55:37,973 WARN]Cookie rejected [cid="wKgWkFbg8DkvamDwA1ntAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:55:37 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:55:37,973 INFO]completed successful!
+[2016-03-10 11:55:37,973 INFO]Response:
+[2016-03-10 11:55:37,974 INFO]HTTP/1.1 200 OK
+[2016-03-10 11:55:37,974 INFO]Server: nginx/1.4.4
+[2016-03-10 11:55:37,974 INFO]Date: Thu, 10 Mar 2016 03:55:37 GMT
+[2016-03-10 11:55:37,974 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-10 11:55:37,974 INFO]Content-Length: 73
+[2016-03-10 11:55:37,974 INFO]Connection: keep-alive
+[2016-03-10 11:55:37,974 INFO]Set-Cookie: PLAY_FLASH=;Expires=Thu, 10-Mar-2016 03:55:37 GMT;Path=/
+[2016-03-10 11:55:37,974 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Thu, 10-Mar-2016 03:55:37 GMT;Path=/
+[2016-03-10 11:55:37,974 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-10 11:55:37,974 INFO]Cache-Control: no-cache
+[2016-03-10 11:55:37,974 INFO]Set-Cookie: cid=wKgWkFbg8DkvamDwA1ntAg==; expires=Sun, 08-Mar-26 03:55:37 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:55:37,975 INFO]url http://192.168.22.144/pubacc/api/pubsend runs 0.105s...
+[2016-03-10 11:55:37,975 INFO]{"pubId":"XT-10000","sourceMsgId":"6a104c8c-b0b5-4bff-9171-46afcd650d40"}
+[2016-03-10 11:55:42,695 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:55:42,696 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3D12udaAEghEJGEHkw%26oauth_nonce%3D255928462%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457582142%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-10 11:55:42,794 INFO]OAuth signature: 2MkWFISNgPWnFaJa1A2EV7+YGNs=
+[2016-03-10 11:55:42,794 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457582142",oauth_nonce="255928462",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="2MkWFISNgPWnFaJa1A2EV7%2BYGNs%3D"
+[2016-03-10 11:55:42,801 INFO]Request: 
+[2016-03-10 11:55:42,802 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-10 11:55:42,803 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-10 11:55:42,813 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457582142",oauth_nonce="255928462",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="2MkWFISNgPWnFaJa1A2EV7%2BYGNs%3D"
+[2016-03-10 11:55:42,813 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 11:55:43,031 WARN]Cookie rejected [cid="wKgWXFbg8D8Cj3WnAx9uAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:55:43 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:55:43,031 WARN]Cookie rejected [cid="wKgWkFbg8D4vWmDyA2VRAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:55:42 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:55:43,036 INFO]completed successful!
+[2016-03-10 11:55:43,036 INFO]Response:
+[2016-03-10 11:55:43,036 INFO]HTTP/1.1 200 OK
+[2016-03-10 11:55:43,036 INFO]Server: nginx/1.4.4
+[2016-03-10 11:55:43,036 INFO]Date: Thu, 10 Mar 2016 03:55:42 GMT
+[2016-03-10 11:55:43,036 INFO]Content-Type: application/json
+[2016-03-10 11:55:43,036 INFO]Content-Length: 91
+[2016-03-10 11:55:43,037 INFO]Connection: keep-alive
+[2016-03-10 11:55:43,037 INFO]Set-Cookie: cid=wKgWXFbg8D8Cj3WnAx9uAg==; expires=Sun, 08-Mar-26 03:55:43 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:55:43,037 INFO]Set-Cookie: cid=wKgWkFbg8D4vWmDyA2VRAg==; expires=Sun, 08-Mar-26 03:55:42 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:55:43,038 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.237s...
+[2016-03-10 11:55:43,038 INFO]{"data":null,"error":"oauth_problem=consumer_key_unknown","success":false,"errorCode":4010}
+[2016-03-10 11:55:43,078 INFO]Structure OAuth Authorization: 
+[2016-03-10 11:55:43,078 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D255928462%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457582142%26oauth_version%3D1.0
+[2016-03-10 11:55:43,078 INFO]OAuth signature: ruSI6FY/IZMSslrHPxM5nu12UAI=
+[2016-03-10 11:55:43,079 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457582142",oauth_nonce="255928462",oauth_version="1.0",oauth_signature="ruSI6FY%2FIZMSslrHPxM5nu12UAI%3D"
+[2016-03-10 11:55:43,079 INFO]Request: 
+[2016-03-10 11:55:43,079 INFO]Post http://192.168.22.144/openapi/third/v1/pubacc/pubsend
+[2016-03-10 11:55:43,104 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 11:55:43,105 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457582142",oauth_nonce="255928462",oauth_version="1.0",oauth_signature="ruSI6FY%2FIZMSslrHPxM5nu12UAI%3D"
+[2016-03-10 11:55:43,105 INFO]Content-Type: application/json
+[2016-03-10 11:55:43,259 WARN]Cookie rejected [cid="wKgWXFbg8D8Cj3WnAx9vAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:55:43 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:55:43,259 WARN]Cookie rejected [cid="wKgWkFbg8D4vWmDyA2VTAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 11:55:42 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 11:55:43,259 INFO]completed successful!
+[2016-03-10 11:55:43,259 INFO]Response:
+[2016-03-10 11:55:43,260 INFO]HTTP/1.1 200 OK
+[2016-03-10 11:55:43,260 INFO]Server: nginx/1.4.4
+[2016-03-10 11:55:43,261 INFO]Date: Thu, 10 Mar 2016 03:55:42 GMT
+[2016-03-10 11:55:43,261 INFO]Content-Type: application/octet-stream
+[2016-03-10 11:55:43,261 INFO]Content-Length: 73
+[2016-03-10 11:55:43,261 INFO]Connection: keep-alive
+[2016-03-10 11:55:43,261 INFO]Set-Cookie: cid=wKgWXFbg8D8Cj3WnAx9vAg==; expires=Sun, 08-Mar-26 03:55:43 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:55:43,261 INFO]Set-Cookie: cid=wKgWkFbg8D4vWmDyA2VTAg==; expires=Sun, 08-Mar-26 03:55:42 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 11:55:43,261 INFO]url http://192.168.22.144/openapi/third/v1/pubacc/pubsend runs 0.182s...
+[2016-03-10 11:55:43,261 INFO]{"pubId":"XT-10000","sourceMsgId":"89896b8f-4901-4304-9900-0d037cbce8be"}
+[2016-03-10 13:48:49,377 INFO]Structure OAuth Authorization: 
+[2016-03-10 13:48:49,379 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D-647252706%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457588929%26oauth_version%3D1.0
+[2016-03-10 13:48:49,494 INFO]OAuth signature: hF0sM8d30M6AWMc9DA1PQsKRhtU=
+[2016-03-10 13:48:49,494 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457588929",oauth_nonce="-647252706",oauth_version="1.0",oauth_signature="hF0sM8d30M6AWMc9DA1PQsKRhtU%3D"
+[2016-03-10 13:48:49,502 INFO]Request: 
+[2016-03-10 13:48:49,502 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 13:48:49,529 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 13:48:49,539 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457588929",oauth_nonce="-647252706",oauth_version="1.0",oauth_signature="hF0sM8d30M6AWMc9DA1PQsKRhtU%3D"
+[2016-03-10 13:48:49,539 INFO]Content-Type: application/json
+[2016-03-10 13:48:49,769 WARN]Cookie rejected [cid="wKgWWlbhCsKk71OTAzc8Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 13:48:50 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 13:48:49,770 WARN]Cookie rejected [cid="wKgBMVbhCr+//zRNBI0TAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 13:48:47 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 13:48:49,774 INFO]completed successful!
+[2016-03-10 13:48:49,774 INFO]Response:
+[2016-03-10 13:48:49,774 INFO]HTTP/1.1 200 OK
+[2016-03-10 13:48:49,774 INFO]Server: nginx/1.6.0
+[2016-03-10 13:48:49,774 INFO]Date: Thu, 10 Mar 2016 05:48:47 GMT
+[2016-03-10 13:48:49,774 INFO]Content-Type: application/json
+[2016-03-10 13:48:49,774 INFO]Content-Length: 88
+[2016-03-10 13:48:49,774 INFO]Connection: keep-alive
+[2016-03-10 13:48:49,774 INFO]Set-Cookie: cid=wKgWWlbhCsKk71OTAzc8Ag==; expires=Sun, 08-Mar-26 05:48:50 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 13:48:49,774 INFO]Set-Cookie: cid=wKgBMVbhCr+//zRNBI0TAg==; expires=Sun, 08-Mar-26 05:48:47 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 13:48:49,776 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.274s...
+[2016-03-10 13:48:49,776 INFO]{"data":null,"success":false,"error":"oauth_problem=signature_invalid","errorCode":4019}
+[2016-03-10 13:49:00,970 INFO]Structure OAuth Authorization: 
+[2016-03-10 13:49:00,972 INFO]OAuth base string: POST&http%3A%2F%2F192.168.1.49%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D535970676%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457588940%26oauth_version%3D1.0
+[2016-03-10 13:49:01,095 INFO]OAuth signature: lNMUMKjl/dSqwf8K2MGxYORyY/8=
+[2016-03-10 13:49:01,096 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457588940",oauth_nonce="535970676",oauth_version="1.0",oauth_signature="lNMUMKjl%2FdSqwf8K2MGxYORyY%2F8%3D"
+[2016-03-10 13:49:01,105 INFO]Request: 
+[2016-03-10 13:49:01,105 INFO]Post http://192.168.1.49/openapi/third/v1/pubacc/pubsend
+[2016-03-10 13:49:01,134 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 13:49:01,144 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457588940",oauth_nonce="535970676",oauth_version="1.0",oauth_signature="lNMUMKjl%2FdSqwf8K2MGxYORyY%2F8%3D"
+[2016-03-10 13:49:01,144 INFO]Content-Type: application/json
+[2016-03-10 13:49:01,452 WARN]Cookie rejected [cid="wKgWWlbhCs2k71OTAzc9Ag==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 13:49:01 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 13:49:01,453 WARN]Cookie rejected [cid="wKgBMVbhCsu//zRNBI0UAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 13:48:59 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.1.49"
+[2016-03-10 13:49:01,455 INFO]completed successful!
+[2016-03-10 13:49:01,455 INFO]Response:
+[2016-03-10 13:49:01,456 INFO]HTTP/1.1 200 OK
+[2016-03-10 13:49:01,456 INFO]Server: nginx/1.6.0
+[2016-03-10 13:49:01,456 INFO]Date: Thu, 10 Mar 2016 05:48:59 GMT
+[2016-03-10 13:49:01,456 INFO]Content-Type: application/octet-stream
+[2016-03-10 13:49:01,456 INFO]Content-Length: 73
+[2016-03-10 13:49:01,456 INFO]Connection: keep-alive
+[2016-03-10 13:49:01,456 INFO]Set-Cookie: cid=wKgWWlbhCs2k71OTAzc9Ag==; expires=Sun, 08-Mar-26 05:49:01 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 13:49:01,456 INFO]Set-Cookie: cid=wKgBMVbhCsu//zRNBI0UAg==; expires=Sun, 08-Mar-26 05:48:59 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 13:49:01,458 INFO]url http://192.168.1.49/openapi/third/v1/pubacc/pubsend runs 0.353s...
+[2016-03-10 13:49:01,458 INFO]{"pubId":"XT-10000","sourceMsgId":"bceceee2-db4b-42d3-a72d-608d0588d615"}
+[2016-03-10 14:01:58,569 INFO]Structure OAuth Authorization: 
+[2016-03-10 14:01:58,571 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D-96587563%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457589718%26oauth_version%3D1.0
+[2016-03-10 14:01:58,678 INFO]OAuth signature: L90IXku4UUzLyVytrMbNoYn9ARU=
+[2016-03-10 14:01:58,679 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457589718",oauth_nonce="-96587563",oauth_version="1.0",oauth_signature="L90IXku4UUzLyVytrMbNoYn9ARU%3D"
+[2016-03-10 14:01:58,686 INFO]Request: 
+[2016-03-10 14:01:58,686 INFO]Post http://192.168.22.144/openapi/third/v1/pubacc/pubsend
+[2016-03-10 14:01:58,711 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 14:01:58,719 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457589718",oauth_nonce="-96587563",oauth_version="1.0",oauth_signature="L90IXku4UUzLyVytrMbNoYn9ARU%3D"
+[2016-03-10 14:01:58,720 INFO]Content-Type: application/json
+[2016-03-10 14:01:59,190 WARN]Cookie rejected [cid="wKgWXFbhDdcCiHWoAyKBAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 14:01:59 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 14:01:59,190 WARN]Cookie rejected [cid="wKgWkFbhDdYvamDwA20mAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 14:01:58 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 14:01:59,195 INFO]completed successful!
+[2016-03-10 14:01:59,195 INFO]Response:
+[2016-03-10 14:01:59,196 INFO]HTTP/1.1 200 OK
+[2016-03-10 14:01:59,196 INFO]Server: nginx/1.4.4
+[2016-03-10 14:01:59,196 INFO]Date: Thu, 10 Mar 2016 06:01:58 GMT
+[2016-03-10 14:01:59,196 INFO]Content-Type: application/octet-stream
+[2016-03-10 14:01:59,196 INFO]Content-Length: 73
+[2016-03-10 14:01:59,196 INFO]Connection: keep-alive
+[2016-03-10 14:01:59,197 INFO]Set-Cookie: cid=wKgWXFbhDdcCiHWoAyKBAg==; expires=Sun, 08-Mar-26 06:01:59 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 14:01:59,197 INFO]Set-Cookie: cid=wKgWkFbhDdYvamDwA20mAg==; expires=Sun, 08-Mar-26 06:01:58 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 14:01:59,199 INFO]url http://192.168.22.144/openapi/third/v1/pubacc/pubsend runs 0.513s...
+[2016-03-10 14:01:59,199 INFO]{"pubId":"XT-10000","sourceMsgId":"ded4e47f-59e6-4973-9ba7-5e3d4ec1faf2"}
+[2016-03-10 15:23:57,506 INFO]Request: 
+[2016-03-10 15:23:57,507 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-10 15:23:57,509 INFO]Post Params: appId=10103
+[2016-03-10 15:23:57,795 WARN]Cookie rejected [cid="wKgWkFbhIQ0vWmDyA4hqAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:23:57 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:23:57,798 INFO]completed successful!
+[2016-03-10 15:23:57,798 INFO]Response:
+[2016-03-10 15:23:57,798 INFO]HTTP/1.1 200 OK
+[2016-03-10 15:23:57,798 INFO]Server: nginx/1.4.4
+[2016-03-10 15:23:57,798 INFO]Date: Thu, 10 Mar 2016 07:23:57 GMT
+[2016-03-10 15:23:57,799 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-10 15:23:57,799 INFO]Content-Length: 331
+[2016-03-10 15:23:57,799 INFO]Connection: keep-alive
+[2016-03-10 15:23:57,799 INFO]Set-Cookie: PLAY_FLASH=;Expires=Thu, 10-Mar-2016 07:23:57 GMT;Path=/
+[2016-03-10 15:23:57,799 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Thu, 10-Mar-2016 07:23:57 GMT;Path=/
+[2016-03-10 15:23:57,799 INFO]Set-Cookie: PLAY_SESSION=;Expires=Thu, 10-Mar-2016 07:23:57 GMT;Path=/
+[2016-03-10 15:23:57,799 INFO]Cache-Control: no-cache
+[2016-03-10 15:23:57,799 INFO]Set-Cookie: cid=wKgWkFbhIQ0vWmDyA4hqAg==; expires=Sun, 08-Mar-26 07:23:57 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:23:57,801 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.296s...
+[2016-03-10 15:23:57,801 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-10 15:23:57,855 INFO]Request: 
+[2016-03-10 15:23:57,856 INFO]Post http://192.168.22.144/pubacc/api/pubsend
+[2016-03-10 15:23:57,881 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 15:23:57,966 WARN]Cookie rejected [cid="wKgWkFbhIQ0vWmDyA4hrAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:23:57 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:23:57,966 INFO]completed successful!
+[2016-03-10 15:23:57,966 INFO]Response:
+[2016-03-10 15:23:57,967 INFO]HTTP/1.1 200 OK
+[2016-03-10 15:23:57,967 INFO]Server: nginx/1.4.4
+[2016-03-10 15:23:57,967 INFO]Date: Thu, 10 Mar 2016 07:23:57 GMT
+[2016-03-10 15:23:57,967 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-10 15:23:57,967 INFO]Content-Length: 73
+[2016-03-10 15:23:57,967 INFO]Connection: keep-alive
+[2016-03-10 15:23:57,967 INFO]Set-Cookie: PLAY_FLASH=;Expires=Thu, 10-Mar-2016 07:23:57 GMT;Path=/
+[2016-03-10 15:23:57,967 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Thu, 10-Mar-2016 07:23:57 GMT;Path=/
+[2016-03-10 15:23:57,967 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-10 15:23:57,967 INFO]Cache-Control: no-cache
+[2016-03-10 15:23:57,967 INFO]Set-Cookie: cid=wKgWkFbhIQ0vWmDyA4hrAg==; expires=Sun, 08-Mar-26 07:23:57 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:23:57,967 INFO]url http://192.168.22.144/pubacc/api/pubsend runs 0.112s...
+[2016-03-10 15:23:57,967 INFO]{"pubId":"XT-10000","sourceMsgId":"3664573b-baef-4fe0-9209-13347a099f01"}
+[2016-03-10 15:24:10,334 INFO]Structure OAuth Authorization: 
+[2016-03-10 15:24:10,336 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3D12udaAEghEJGEHkw%26oauth_nonce%3D1397090339%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457594650%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-10 15:24:10,445 INFO]OAuth signature: 47/UUh/KgLaqjkzd+EKqFVHZYJI=
+[2016-03-10 15:24:10,445 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457594650",oauth_nonce="1397090339",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="47%2FUUh%2FKgLaqjkzd%2BEKqFVHZYJI%3D"
+[2016-03-10 15:24:10,453 INFO]Request: 
+[2016-03-10 15:24:10,453 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-10 15:24:10,454 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-10 15:24:10,464 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457594650",oauth_nonce="1397090339",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="47%2FUUh%2FKgLaqjkzd%2BEKqFVHZYJI%3D"
+[2016-03-10 15:24:10,464 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 15:24:10,683 WARN]Cookie rejected [cid="wKgWXFbhIRsCj3WmAyyTAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:24:11 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:24:10,683 WARN]Cookie rejected [cid="wKgWkFbhIRovamDwA3uTAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:24:10 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:24:10,687 INFO]completed successful!
+[2016-03-10 15:24:10,687 INFO]Response:
+[2016-03-10 15:24:10,687 INFO]HTTP/1.1 200 OK
+[2016-03-10 15:24:10,687 INFO]Server: nginx/1.4.4
+[2016-03-10 15:24:10,687 INFO]Date: Thu, 10 Mar 2016 07:24:10 GMT
+[2016-03-10 15:24:10,687 INFO]Content-Type: application/json
+[2016-03-10 15:24:10,687 INFO]Content-Length: 91
+[2016-03-10 15:24:10,687 INFO]Connection: keep-alive
+[2016-03-10 15:24:10,688 INFO]Set-Cookie: cid=wKgWXFbhIRsCj3WmAyyTAg==; expires=Sun, 08-Mar-26 07:24:11 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:24:10,688 INFO]Set-Cookie: cid=wKgWkFbhIRovamDwA3uTAg==; expires=Sun, 08-Mar-26 07:24:10 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:24:10,689 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.236s...
+[2016-03-10 15:24:10,689 INFO]{"data":null,"success":false,"error":"oauth_problem=consumer_key_unknown","errorCode":4010}
+[2016-03-10 15:24:10,730 INFO]Structure OAuth Authorization: 
+[2016-03-10 15:24:10,730 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D1397090339%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457594650%26oauth_version%3D1.0
+[2016-03-10 15:24:10,730 INFO]OAuth signature: 5nkrvvTA3svYsrvFd7sxnVIfY4s=
+[2016-03-10 15:24:10,731 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457594650",oauth_nonce="1397090339",oauth_version="1.0",oauth_signature="5nkrvvTA3svYsrvFd7sxnVIfY4s%3D"
+[2016-03-10 15:24:10,731 INFO]Request: 
+[2016-03-10 15:24:10,731 INFO]Post http://192.168.22.144/openapi/third/v1/pubacc/pubsend
+[2016-03-10 15:24:10,761 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 15:24:10,762 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457594650",oauth_nonce="1397090339",oauth_version="1.0",oauth_signature="5nkrvvTA3svYsrvFd7sxnVIfY4s%3D"
+[2016-03-10 15:24:10,762 INFO]Content-Type: application/json
+[2016-03-10 15:24:10,856 WARN]Cookie rejected [cid="wKgWXFbhIRsCj3WmAyyUAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:24:11 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:24:10,856 WARN]Cookie rejected [cid="wKgWkFbhIRovamDwA3uVAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:24:10 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:24:10,856 INFO]completed successful!
+[2016-03-10 15:24:10,856 INFO]Response:
+[2016-03-10 15:24:10,856 INFO]HTTP/1.1 200 OK
+[2016-03-10 15:24:10,856 INFO]Server: nginx/1.4.4
+[2016-03-10 15:24:10,856 INFO]Date: Thu, 10 Mar 2016 07:24:10 GMT
+[2016-03-10 15:24:10,857 INFO]Content-Type: application/octet-stream
+[2016-03-10 15:24:10,857 INFO]Content-Length: 73
+[2016-03-10 15:24:10,857 INFO]Connection: keep-alive
+[2016-03-10 15:24:10,857 INFO]Set-Cookie: cid=wKgWXFbhIRsCj3WmAyyUAg==; expires=Sun, 08-Mar-26 07:24:11 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:24:10,857 INFO]Set-Cookie: cid=wKgWkFbhIRovamDwA3uVAg==; expires=Sun, 08-Mar-26 07:24:10 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:24:10,857 INFO]url http://192.168.22.144/openapi/third/v1/pubacc/pubsend runs 0.126s...
+[2016-03-10 15:24:10,857 INFO]{"pubId":"XT-10000","sourceMsgId":"aae5ef97-c6be-4f6f-9b96-1b3287be5954"}
+[2016-03-10 15:32:12,613 INFO]Structure OAuth Authorization: 
+[2016-03-10 15:32:12,614 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3D12udaAEghEJGEHkw%26oauth_nonce%3D1002363224%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457595132%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-10 15:32:12,725 INFO]OAuth signature: VvozMEHxhPk7u7i2vFcevhviDgw=
+[2016-03-10 15:32:12,725 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457595132",oauth_nonce="1002363224",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="VvozMEHxhPk7u7i2vFcevhviDgw%3D"
+[2016-03-10 15:32:12,734 INFO]Request: 
+[2016-03-10 15:32:12,734 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-10 15:32:12,737 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-10 15:32:12,748 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457595132",oauth_nonce="1002363224",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="VvozMEHxhPk7u7i2vFcevhviDgw%3D"
+[2016-03-10 15:32:12,748 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 15:32:12,971 WARN]Cookie rejected [cid="wKgWXFbhIv0Cj3WnAyjnAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:32:13 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:32:12,971 WARN]Cookie rejected [cid="wKgWkFbhIvwvb2DxA4KAAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:32:12 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:32:12,974 INFO]completed successful!
+[2016-03-10 15:32:12,974 INFO]Response:
+[2016-03-10 15:32:12,975 INFO]HTTP/1.1 200 OK
+[2016-03-10 15:32:12,975 INFO]Server: nginx/1.4.4
+[2016-03-10 15:32:12,975 INFO]Date: Thu, 10 Mar 2016 07:32:12 GMT
+[2016-03-10 15:32:12,975 INFO]Content-Type: application/json
+[2016-03-10 15:32:12,975 INFO]Content-Length: 91
+[2016-03-10 15:32:12,975 INFO]Connection: keep-alive
+[2016-03-10 15:32:12,975 INFO]Set-Cookie: cid=wKgWXFbhIv0Cj3WnAyjnAg==; expires=Sun, 08-Mar-26 07:32:13 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:32:12,975 INFO]Set-Cookie: cid=wKgWkFbhIvwvb2DxA4KAAg==; expires=Sun, 08-Mar-26 07:32:12 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:32:12,976 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.242s...
+[2016-03-10 15:32:12,976 INFO]{"data":null,"success":false,"error":"oauth_problem=consumer_key_unknown","errorCode":4010}
+[2016-03-10 15:32:13,016 INFO]Structure OAuth Authorization: 
+[2016-03-10 15:32:13,016 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D10103%26oauth_nonce%3D1002363224%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457595132%26oauth_version%3D1.0
+[2016-03-10 15:32:13,017 INFO]OAuth signature: mBcogRLOM0wux6mVXLzbXmv07t8=
+[2016-03-10 15:32:13,017 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457595132",oauth_nonce="1002363224",oauth_version="1.0",oauth_signature="mBcogRLOM0wux6mVXLzbXmv07t8%3D"
+[2016-03-10 15:32:13,017 INFO]Request: 
+[2016-03-10 15:32:13,017 INFO]Post http://192.168.22.144/openapi/third/v1/pubacc/pubsend
+[2016-03-10 15:32:13,044 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 15:32:13,045 INFO]Authorization: OAuth oauth_consumer_key="10103",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457595132",oauth_nonce="1002363224",oauth_version="1.0",oauth_signature="mBcogRLOM0wux6mVXLzbXmv07t8%3D"
+[2016-03-10 15:32:13,045 INFO]Content-Type: application/json
+[2016-03-10 15:32:13,157 WARN]Cookie rejected [cid="wKgWXFbhIv0Cj3WnAyjoAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:32:13 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:32:13,157 WARN]Cookie rejected [cid="wKgWkFbhIvwvb2DxA4KCAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 15:32:12 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 15:32:13,157 INFO]completed successful!
+[2016-03-10 15:32:13,157 INFO]Response:
+[2016-03-10 15:32:13,157 INFO]HTTP/1.1 200 OK
+[2016-03-10 15:32:13,157 INFO]Server: nginx/1.4.4
+[2016-03-10 15:32:13,158 INFO]Date: Thu, 10 Mar 2016 07:32:12 GMT
+[2016-03-10 15:32:13,158 INFO]Content-Type: application/octet-stream
+[2016-03-10 15:32:13,158 INFO]Content-Length: 73
+[2016-03-10 15:32:13,158 INFO]Connection: keep-alive
+[2016-03-10 15:32:13,158 INFO]Set-Cookie: cid=wKgWXFbhIv0Cj3WnAyjoAg==; expires=Sun, 08-Mar-26 07:32:13 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:32:13,158 INFO]Set-Cookie: cid=wKgWkFbhIvwvb2DxA4KCAg==; expires=Sun, 08-Mar-26 07:32:12 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 15:32:13,158 INFO]url http://192.168.22.144/openapi/third/v1/pubacc/pubsend runs 0.141s...
+[2016-03-10 15:32:13,158 INFO]{"pubId":"XT-10000","sourceMsgId":"e2637e3a-d39b-4c39-8769-7ccf4f3bf474"}
+[2016-03-10 16:10:10,964 INFO]Request: 
+[2016-03-10 16:10:10,978 INFO]Post http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103
+[2016-03-10 16:10:10,980 INFO]Post Params: appId=10103
+[2016-03-10 16:10:11,385 WARN]Cookie rejected [cid="wKgWkFbhK+Mvb2DxA4lgAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 16:10:11 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 16:10:11,389 INFO]completed successful!
+[2016-03-10 16:10:11,389 INFO]Response:
+[2016-03-10 16:10:11,389 INFO]HTTP/1.1 200 OK
+[2016-03-10 16:10:11,389 INFO]Server: nginx/1.4.4
+[2016-03-10 16:10:11,389 INFO]Date: Thu, 10 Mar 2016 08:10:11 GMT
+[2016-03-10 16:10:11,389 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-10 16:10:11,389 INFO]Content-Length: 331
+[2016-03-10 16:10:11,389 INFO]Connection: keep-alive
+[2016-03-10 16:10:11,390 INFO]Set-Cookie: PLAY_FLASH=;Expires=Thu, 10-Mar-2016 08:10:10 GMT;Path=/
+[2016-03-10 16:10:11,390 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Thu, 10-Mar-2016 08:10:10 GMT;Path=/
+[2016-03-10 16:10:11,390 INFO]Set-Cookie: PLAY_SESSION=;Expires=Thu, 10-Mar-2016 08:10:10 GMT;Path=/
+[2016-03-10 16:10:11,390 INFO]Cache-Control: no-cache
+[2016-03-10 16:10:11,390 INFO]Set-Cookie: cid=wKgWkFbhK+Mvb2DxA4lgAg==; expires=Sun, 08-Mar-26 08:10:11 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 16:10:11,391 INFO]url http://192.168.22.144/pubacc/api/innerAppInfo?appId=10103 runs 0.428s...
+[2016-03-10 16:10:11,391 INFO]{"success":true,"data":{"regTime":1439191119038,"appname":"工作汇报","domain":"云之家","appsecret":"kingdee20150810","appid":"10103","appurl":"http%3A%2F%2F192.168.22.92%2Flightapp%2Fc%2Fredirect.json%3FlappName%3Dworkreport%26viewName%3Dindex","expurl":"http://192.168.22.144/workreport/guidance/workreport-guidance2.jsp"}}
+[2016-03-10 16:10:11,444 INFO]Request: 
+[2016-03-10 16:10:11,445 INFO]Post http://192.168.22.144/pubacc/api/pubsend
+[2016-03-10 16:10:11,482 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 16:10:11,564 WARN]Cookie rejected [cid="wKgWkFbhK+Mvb2DxA4lhAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 16:10:11 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 16:10:11,564 INFO]completed successful!
+[2016-03-10 16:10:11,564 INFO]Response:
+[2016-03-10 16:10:11,564 INFO]HTTP/1.1 200 OK
+[2016-03-10 16:10:11,564 INFO]Server: nginx/1.4.4
+[2016-03-10 16:10:11,564 INFO]Date: Thu, 10 Mar 2016 08:10:11 GMT
+[2016-03-10 16:10:11,564 INFO]Content-Type: application/json; charset=utf-8
+[2016-03-10 16:10:11,565 INFO]Content-Length: 73
+[2016-03-10 16:10:11,565 INFO]Connection: keep-alive
+[2016-03-10 16:10:11,565 INFO]Set-Cookie: PLAY_FLASH=;Expires=Thu, 10-Mar-2016 08:10:10 GMT;Path=/
+[2016-03-10 16:10:11,565 INFO]Set-Cookie: PLAY_ERRORS=;Expires=Thu, 10-Mar-2016 08:10:10 GMT;Path=/
+[2016-03-10 16:10:11,565 INFO]Set-Cookie: PLAY_SESSION="59c08fd73bd34a4f77ececf41ab95ecc38a0614f-pid=XT-10000";Path=/
+[2016-03-10 16:10:11,565 INFO]Cache-Control: no-cache
+[2016-03-10 16:10:11,565 INFO]Set-Cookie: cid=wKgWkFbhK+Mvb2DxA4lhAg==; expires=Sun, 08-Mar-26 08:10:11 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 16:10:11,565 INFO]url http://192.168.22.144/pubacc/api/pubsend runs 0.121s...
+[2016-03-10 16:10:11,565 INFO]{"pubId":"XT-10000","sourceMsgId":"e546f1f7-7cc2-40ba-a153-de888ec9f9d6"}
+[2016-03-10 16:10:22,974 INFO]Structure OAuth Authorization: 
+[2016-03-10 16:10:22,976 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fv1%2Fticket%2Facquire.json&appid%3D10103%26mid%3D10109%26oauth_consumer_key%3D12udaAEghEJGEHkw%26oauth_nonce%3D1504378530%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457597422%26oauth_token%3D3f3f94d26637acc3f265c016ca471183%26oauth_version%3D1.0%26openToken%3Da5487e1fae239bc947ac3951338d8ec
+[2016-03-10 16:10:23,085 INFO]OAuth signature: 7HBZ3dYII83oI2ozMCbkMEw96AE=
+[2016-03-10 16:10:23,086 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457597422",oauth_nonce="1504378530",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="7HBZ3dYII83oI2ozMCbkMEw96AE%3D"
+[2016-03-10 16:10:23,095 INFO]Request: 
+[2016-03-10 16:10:23,095 INFO]Post http://192.168.22.144/openapi/v1/ticket/acquire.json
+[2016-03-10 16:10:23,097 INFO]Post Params: openToken=a5487e1fae239bc947ac3951338d8ec&appid=10103&mid=10109
+[2016-03-10 16:10:23,108 INFO]Authorization: OAuth oauth_consumer_key="12udaAEghEJGEHkw",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457597422",oauth_nonce="1504378530",oauth_version="1.0",oauth_token="3f3f94d26637acc3f265c016ca471183",oauth_signature="7HBZ3dYII83oI2ozMCbkMEw96AE%3D"
+[2016-03-10 16:10:23,108 INFO]Content-Type: application/x-www-form-urlencoded
+[2016-03-10 16:10:23,347 WARN]Cookie rejected [cid="wKgWXFbhK/ACj3WmAzIlAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 16:10:24 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 16:10:23,347 WARN]Cookie rejected [cid="wKgWkFbhK+8vamDwA4jAAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 16:10:23 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 16:10:23,352 INFO]completed successful!
+[2016-03-10 16:10:23,352 INFO]Response:
+[2016-03-10 16:10:23,352 INFO]HTTP/1.1 200 OK
+[2016-03-10 16:10:23,352 INFO]Server: nginx/1.4.4
+[2016-03-10 16:10:23,352 INFO]Date: Thu, 10 Mar 2016 08:10:23 GMT
+[2016-03-10 16:10:23,352 INFO]Content-Type: application/json
+[2016-03-10 16:10:23,352 INFO]Content-Length: 91
+[2016-03-10 16:10:23,352 INFO]Connection: keep-alive
+[2016-03-10 16:10:23,352 INFO]Set-Cookie: cid=wKgWXFbhK/ACj3WmAzIlAg==; expires=Sun, 08-Mar-26 08:10:24 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 16:10:23,352 INFO]Set-Cookie: cid=wKgWkFbhK+8vamDwA4jAAg==; expires=Sun, 08-Mar-26 08:10:23 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 16:10:23,354 INFO]url http://192.168.22.144/openapi/v1/ticket/acquire.json runs 0.258s...
+[2016-03-10 16:10:23,354 INFO]{"data":null,"success":false,"error":"oauth_problem=consumer_key_unknown","errorCode":4010}
+[2016-03-10 16:10:23,407 INFO]Structure OAuth Authorization: 
+[2016-03-10 16:10:23,407 INFO]OAuth base string: POST&http%3A%2F%2F192.168.22.144%2Fopenapi%2Fthird%2Fv1%2Fpubacc%2Fpubsend&oauth_consumer_key%3D2016%26oauth_nonce%3D1504378530%26oauth_signature_method%3DHMAC-SHA1%26oauth_timestamp%3D1457597422%26oauth_version%3D1.0
+[2016-03-10 16:10:23,407 INFO]OAuth signature: Z86/lBYgJWD5xbwhwCOag7mROZw=
+[2016-03-10 16:10:23,407 INFO]Authorization: OAuth oauth_consumer_key="2016",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457597422",oauth_nonce="1504378530",oauth_version="1.0",oauth_signature="Z86%2FlBYgJWD5xbwhwCOag7mROZw%3D"
+[2016-03-10 16:10:23,407 INFO]Request: 
+[2016-03-10 16:10:23,408 INFO]Post http://192.168.22.144/openapi/third/v1/pubacc/pubsend
+[2016-03-10 16:10:23,445 INFO]Post Params: {"from":{"no":"10109","nonce":"0.6917891008699647","pub":"XT-10000","pubtoken":"ea3c34f11ada8219f0eeeb913d679b362c3f0810","time":"1430471411"},"msg":{"appid":"10103","text":"各位金蝶同事，为了给用户提供更好的云之家服务，近一周内，我们会在非高峰使用时段对云之家服务做必要的性能测试及优化，测试和优化范围仅限金蝶内部用户，外部客户不受任何影响。\n在此期间，如遇任何异常使用问题，请及时与我们联系：林毓铮 0755-86072654。谢谢大家！","todo":"1"},"to":[{"no":"10109","user":["7b1096ec-90be-42a8-bde2-e1c6a7ed4371"]}],"type":2}
+[2016-03-10 16:10:23,446 INFO]Authorization: OAuth oauth_consumer_key="2016",oauth_signature_method="HMAC-SHA1",oauth_timestamp="1457597422",oauth_nonce="1504378530",oauth_version="1.0",oauth_signature="Z86%2FlBYgJWD5xbwhwCOag7mROZw%3D"
+[2016-03-10 16:10:23,446 INFO]Content-Type: application/json
+[2016-03-10 16:10:23,473 WARN]Cookie rejected [cid="wKgWXFbhK/ACj3WmAzImAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 16:10:24 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 16:10:23,473 WARN]Cookie rejected [cid="wKgWkFbhK+8vamDwA4jBAg==", version:0, domain:kdweibo.cn, path:/, expiry:Sun Mar 08 16:10:23 CST 2026] Illegal domain attribute "kdweibo.cn". Domain of origin: "192.168.22.144"
+[2016-03-10 16:10:23,473 INFO]completed successful!
+[2016-03-10 16:10:23,473 INFO]Response:
+[2016-03-10 16:10:23,473 INFO]HTTP/1.1 200 OK
+[2016-03-10 16:10:23,474 INFO]Server: nginx/1.4.4
+[2016-03-10 16:10:23,474 INFO]Date: Thu, 10 Mar 2016 08:10:23 GMT
+[2016-03-10 16:10:23,474 INFO]Content-Type: application/json
+[2016-03-10 16:10:23,474 INFO]Content-Length: 91
+[2016-03-10 16:10:23,474 INFO]Connection: keep-alive
+[2016-03-10 16:10:23,474 INFO]Set-Cookie: cid=wKgWXFbhK/ACj3WmAzImAg==; expires=Sun, 08-Mar-26 08:10:24 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 16:10:23,475 INFO]Set-Cookie: cid=wKgWkFbhK+8vamDwA4jBAg==; expires=Sun, 08-Mar-26 08:10:23 GMT; domain=kdweibo.cn; path=/
+[2016-03-10 16:10:23,475 INFO]url http://192.168.22.144/openapi/third/v1/pubacc/pubsend runs 0.068s...
+[2016-03-10 16:10:23,475 INFO]{"data":null,"success":false,"error":"oauth_problem=consumer_key_unknown","errorCode":4010}
